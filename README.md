@@ -1,36 +1,56 @@
-SI-Prompt-EV-Translate là nơi tôi lưu trữ **System Instructions** (SI) và **Prompt** chất lượng cao cho AI, chuyên cho nhiệm vụ **dịch thuật tài liệu khoa học định dạng PDF** từ **tiếng Anh sang tiếng Việt**. Vì SI & Prompt có độ phức tạp cao, khuyến nghị người dùng sử dụng các model AI tiên tiến nhất để xử lý.
+# SI-Prompt-EV-Translate
 
-SI & Prompt sử dụng định dạng *Markdown* là định dạng giúp AI dễ dàng hiểu hướng dẫn hơn.
+> **System Instructions (SI) và Prompt chất lượng cao chuyên dụng cho nhiệm vụ dịch thuật tài liệu khoa học PDF (Anh - Việt).**
 
-Người dùng được tự do sử dụng lại SI & Prompt trên cho các dự án của bạn, nó được cấp giấy phép MIT.
-
-**Tuyên bố từ chối trách nhiệm**: Mặc dù được kiểm tra kỹ lưỡng, người phát triển sản phẩm từ chối mọi trách nhiệm liên quan đến quyết định sử dụng sản phẩm này của bạn.
+Dự án này cung cấp bộ khung hướng dẫn tối ưu giúp AI xử lý các văn bản học thuật có độ phức tạp cao, đảm bảo độ chính xác về thuật ngữ và bảo toàn định dạng tốt nhất có thể.
 
 ---
 
-Người dùng có thể đưa thẳng bộ SI/Prompt này vào **AI Studio của Gemini** để dịch các bản PDF, nó có một số ưu điểm:
+## 🚀 Tại sao nên sử dụng với Gemini AI Studio?
 
-- Bản thân công cụ này đã được kiểm tra kỹ lưỡng với Gemini.
-- AI Studio có giới hạn miễn phí tương đối rộng rãi giúp bạn tiết kiệm tối đa, hầu như không phải mất phí để dịch nếu tài liệu không quá dài.
-- AI Studio của Gemini rất tiện đăng ký, sử dụng & có nhiều tùy chỉnh nâng cao. Đây cũng là AI có chất lượng thuộc top đầu hiện nay.
+Việc kết hợp bộ SI/Prompt này với **Gemini AI Studio** mang lại nhiều lợi thế vượt trội:
 
----
-
-## Cách sử dụng với AI Studio
-
-- Chọn model có chất lượng cao nhất (ở thời điểm tôi viết hướng dẫn này đó là model: **Gemini 3.1 Pro Preview**).
-- Ngay dưới phần chọn model là phần **nhập System instructions**, bạn copy SI của công cụ này và đưa vào đó.
-- Điều chỉnh mức độ sáng tạo với Temperature: **Temperature nên để thấp**, khoảng 0,3 thay vì mặc định là 1. Temperature thấp giúp thắt chặt chất lượng dịch, tránh dịch 'quá bay', cái vốn không phù hợp với tài liệu khoa học.
-- Các cái khác cứ để như mặc định.
-
-Khi muốn dịch tài liệu, copy Prompt đưa vào khung chat, sau đó click dấu + ngay kế để upload file PDF lên rồi Enter đợi kết quả.
-
-Vì tài liệu khoa học, SI, prompt phức tạp, thời gian để dịch có thể dao động từ 150 tới 600s tùy vào độ dài thực tế của tài liệu.
-
-Kết quả đầu ra xuất ở định dạng mã HTML (định dạng của web), bạn nên copy nó lại rồi lưu dưới định dạng .html để đọc hoàn chỉnh. Định dạng .html đọc dễ dàng bằng bất cứ trình duyệt nào (khuyến khích dùng Google Chrome).
-
-Các thử nghiệm cho thấy bộ công cụ này cho chất lượng dịch & bảo toàn định dạng rất tốt (mặc dù không hoàn hảo).
+* **Tối ưu hóa hệ sinh thái:** Công cụ được tinh chỉnh và kiểm tra kỹ lưỡng trên các dòng model Gemini.
+* **Tiết kiệm chi phí:** Hạn mức miễn phí rộng rãi, phù hợp cho nhu cầu dịch thuật cá nhân mà hầu như không phát sinh phí.
+* **Tùy chỉnh chuyên sâu:** Cung cấp nhiều thiết lập nâng cao và khả năng đăng ký dễ dàng.
+* **Hiệu suất hàng đầu:** Gemini hiện là một trong những AI có khả năng xử lý ngữ cảnh và dịch thuật tốt nhất.
 
 ---
 
-**Cuối cùng chỉ để cảnh giác**: Không một công cụ dịch thuật tự động nào có khả năng cạnh tranh với **dịch thuật viên chất lượng cao**. Đối với các tài liệu đặc biệt quan trọng, tôi vẫn khuyên bạn nên thuê các dịch thuật viên để đảm bảo chất lượng và độ tin cậy tối đa.
+## 🛠 Hướng dẫn thiết lập & Sử dụng
+
+Để đạt kết quả tốt nhất, hãy thực hiện theo các bước sau trong AI Studio:
+
+### 1. Cấu hình Model
+* **Model:** Chọn model tiên tiến nhất (khuyến nghị: `Gemini 3.1 Pro Preview` hoặc các bản `Preview` mới nhất).
+* **System Instructions:** Copy toàn bộ nội dung SI của công cụ này và dán vào khung **System instructions** (ngay dưới phần chọn model).
+* **Tham số kỹ thuật:**
+    * `Temperature`: Điều chỉnh xuống mức **0.3** (thay vì mặc định là 1.0). 
+    * *Lưu ý:* Mức nhiệt độ thấp giúp thắt chặt tính logic, tránh dịch quá đà, đảm bảo văn phong khoa học nghiêm túc.
+
+### 2. Thao tác dịch
+1. Copy **Prompt** vào khung chat.
+2. Nhấn nút **+** để tải file **PDF** cần dịch lên.
+3. Nhấn **Enter** và đợi AI xử lý.
+
+---
+
+## 📝 Lưu ý kỹ thuật quan trọng
+
+* **Thời gian xử lý:** Do tính chất phức tạp của tài liệu khoa học, thời gian hoàn thành có thể dao động từ **150s đến 600s** tùy độ dài file.
+* **Định dạng đầu ra:** Kết quả trả về ở dạng **mã HTML**.
+    * *Lời khuyên:* Bạn nên lưu nội dung này thành file `.html` để xem đầy đủ định dạng qua trình duyệt (ưu tiên Google Chrome).
+* **Khả năng bảo toàn:** Công cụ hỗ trợ giữ định dạng rất tốt nhưng không thể hoàn hảo 100% đối với mọi loại bố cục PDF phức tạp.
+
+---
+
+## ⚖️ Giấy phép & Tuyên bố miễn trừ
+
+### Giấy phép (License)
+Dự án được phát hành dưới bản quyền **MIT License**. Bạn hoàn toàn tự do sử dụng và tích hợp vào các dự án cá nhân hoặc thương mại.
+
+### Tuyên bố từ chối trách nhiệm
+Mặc dù đã được kiểm tra kỹ lưỡng, người phát triển không chịu trách nhiệm cho bất kỳ hệ quả nào phát sinh từ các quyết định dựa trên kết quả đầu ra của công cụ này.
+
+> [!WARNING]
+> **Lưu ý quan trọng:** Không một công cụ dịch thuật tự động nào có thể thay thế hoàn toàn **dịch thuật viên chuyên nghiệp**. Đối với các tài liệu đặc biệt quan trọng, tôi khuyến nghị bạn nên thuê chuyên gia để đảm bảo độ tin cậy tuyệt đối.
