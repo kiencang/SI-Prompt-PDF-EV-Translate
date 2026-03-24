@@ -1,7 +1,7 @@
 **Nhiệm vụ Chính**: Dựa trên vai trò và các nguyên tắc hoạt động đã được định nghĩa chi tiết trong System Instructions (SI) nâng cao của bạn, hãy thực hiện:
 
-1.  **Dịch thuật Anh-Việt**: Dịch **cực kỳ chính xác về ý nghĩa** và **tuyệt đối tự nhiên về văn phong tiếng Việt** toàn bộ **nội dung văn bản có thể đọc được** và các thành phần có ngữ nghĩa (như alt text cho ảnh) từ tài liệu PDF tiếng Anh được cung cấp. **TUÂN THỦ NGHIÊM NGẶT Ưu tiên #1 và #2** trong SI, đặc biệt là yêu cầu **tái cấu trúc câu/đoạn một cách quyết liệt và sáng tạo**.
-2.  **Tái tạo sang HTML**: Trình bày bản dịch dưới dạng một **đoạn mã HTML thô hoàn chỉnh và ngữ nghĩa**. **Nỗ lực tối đa (best-effort)** để **bảo toàn layout và định dạng gốc** của PDF bằng HTML/CSS, nhưng **TUYỆT ĐỐI KHÔNG VI PHẠM Ưu tiên #3 (Tránh vỡ layout/Đảm bảo đọc được)** và luôn tuân thủ **Thứ tự Ưu tiên**, **Quy tắc Giải quyết Xung đột**, và các hướng dẫn xử lý yếu tố đặc biệt (ảnh, bảng, cột, công thức toán học, tài liệu tham khảo, header/footer, bố cục chung của tài liệu, accessibility) trong SI.
+1.  **Dịch thuật Anh-Việt**: Dịch **cực kỳ chính xác về ý nghĩa** và **tuyệt đối tự nhiên về văn phong tiếng Việt** toàn bộ **nội dung văn bản có thể đọc được** và các thành phần có ngữ nghĩa (như alt text cho ảnh) từ tài liệu PDF tiếng Anh được cung cấp. **TUÂN THỦ NGHIÊM NGẶT Ưu tiên #1 và Ưu tiên #2** trong SI, đặc biệt là yêu cầu **tái cấu trúc câu/đoạn một cách quyết liệt và sáng tạo**.
+2.  **Tái tạo sang HTML**: Trình bày bản dịch dưới dạng một **đoạn mã HTML thô hoàn chỉnh và ngữ nghĩa (semantic HTML)**. **Nỗ lực tối đa (best-effort)** để **bảo toàn layout và định dạng gốc** của PDF bằng HTML/CSS, nhưng **TUYỆT ĐỐI KHÔNG VI PHẠM Ưu tiên #3 (Tránh vỡ layout/Đảm bảo đọc được)** và luôn tuân thủ **Thứ tự Ưu tiên**, **Quy tắc Giải quyết Xung đột**, và các hướng dẫn xử lý yếu tố đặc biệt (ảnh, bảng, cột, công thức toán học, tài liệu tham khảo, header/footer, bố cục chung của tài liệu, accessibility) trong SI.
 
 **Đầu vào**: Tài liệu PDF tiếng Anh.
 **Đầu ra**: Một đoạn mã HTML thô hoàn chỉnh, **không chứa bất kỳ văn bản nào khác ngoài mã HTML đó** (không lời dẫn, không giải thích, không markdown bao quanh).
@@ -92,19 +92,20 @@
     *   Xử lý **Hình ảnh (`<img>`)**: Đảm bảo có thẻ `<img>` với `src` hợp lý (hoặc placeholder) và **thuộc tính `alt` tiếng Việt có ý nghĩa** (hoặc `alt=""` nếu trang trí).
     *   Xử lý **Văn bản trong Ảnh/Biểu đồ**: Định vị CSS khéo léo, không che khuất.
     *   Xử lý **Bảng biểu (`<table>`)**: Đảm bảo **cấu trúc ngữ nghĩa** (`thead`, `tbody`, `th`, `td`), đơn giản hóa nếu cần để dễ đọc.
-	*   Xử lý **Biểu thức và Công thức Toán học**: Đảm bảo tuân thủ chính xác hướng dẫn nêu trong SI.
     *   Xử lý **Header/Footer**: Tích hợp hợp lý, không gây xáo trộn.
     *   Đảm bảo **HTML ngữ nghĩa** (semantic HTML) và tuân thủ **accessibility cơ bản** (cấu trúc heading, alt text, table headers).
 	*   **Tinh chỉnh Typography (Tùy chọn):** Trong khối `<style>`, hãy cân nhắc thêm các thuộc tính xử lý ngắt trang/ngắt cột cơ bản cho thẻ `<p>` (ví dụ: `orphans: 2; widows: 2;` hoặc `3`) để đảm bảo các đoạn văn không bị đứt gãy mồ côi/góa phụ khi người dùng in tài liệu hoặc xem trên các thiết bị có kích thước màn hình đặc thù, tăng tối đa tính chuyên nghiệp cho bản dịch.
+	
+5.  **Xử lý Biểu thức và Công thức Toán học**: Đảm bảo **TUÂN THỦ CHÍNH XÁC** hướng dẫn nêu trong SI.
 
-5.  **Xử lý Tài liệu Tham khảo (References/Bibliography)**: **TUÂN THỦ NGHIÊM NGẶT** các quy tắc trong SI: **KHÔNG dịch** tên tác giả, tiêu đề (bài báo, sách, tạp chí), nhà xuất bản, thông tin xuất bản, DOI, URL. **Chỉ dịch** các ghi chú/bình luận do tác giả gốc viết thêm (nếu có). **Bảo toàn định dạng gốc** (đậm, nghiêng, cấu trúc list) và **đảm bảo DOI/URL là link hoạt động**.
+6.  **Xử lý Tài liệu Tham khảo (References/Bibliography)**: **TUÂN THỦ NGHIÊM NGẶT** các quy tắc trong SI: **KHÔNG dịch** tên tác giả, tiêu đề (bài báo, sách, tạp chí), nhà xuất bản, thông tin xuất bản, DOI, URL. **Chỉ dịch** các ghi chú/bình luận do tác giả gốc viết thêm (nếu có). **Bảo toàn định dạng gốc** (đậm, nghiêng, cấu trúc list) và **đảm bảo DOI/URL là link hoạt động**.
 
 ---
 **## Quy trình Thực hiện & KIỂM TRA CUỐI CÙNG (Bắt buộc):**
 
-1.  **Phân tích PDF Toàn diện**: Hiểu rõ nội dung, cấu trúc logic, layout, định dạng, hình ảnh, bảng biểu.
+1.  **Phân tích PDF Toàn diện**: Hiểu rõ nội dung, cấu trúc logic, layout, định dạng, hình ảnh, bảng biểu, công thức toán học.
 2.  **Dịch thuật Tập trung (Ưu tiên #1, #1A & #2)**: Tạo bản dịch tiếng Việt chuẩn xác, tự nhiên nhất, tái cấu trúc không khoan nhượng. Xác định nội dung cho `alt` text của ảnh.
-3.  **Tạo HTML/CSS Ngữ nghĩa & Accessibile (Ưu tiên #3 & #4)**: Xây dựng cấu trúc HTML ngữ nghĩa, nhúng bản dịch, tích hợp ảnh (`<img>` với `alt`), bảng (`<table>`), áp dụng CSS để cố gắng tái tạo giao diện gốc. **Luôn kiểm soát chặt chẽ** để không vỡ layout và đảm bảo khả năng truy cập cơ bản. Xử lý các yếu tố đặc biệt (ảnh, cột, header/footer, bảng phức tạp) theo đúng hướng dẫn SI. Giải quyết xung đột theo đúng thứ tự ưu tiên và quy tắc trong SI.
+3.  **Tạo HTML/CSS Ngữ nghĩa & Accessibile (Ưu tiên #3 & #4)**: Xây dựng cấu trúc HTML ngữ nghĩa, nhúng bản dịch, tích hợp ảnh (`<img>` với `alt`), bảng (`<table>`), áp dụng CSS để cố gắng tái tạo giao diện gốc. **Luôn kiểm soát chặt chẽ** để không vỡ layout và đảm bảo khả năng truy cập cơ bản. Xử lý các yếu tố đặc biệt (ảnh, cột, header/footer, bảng phức tạp, công thức toán học) theo đúng hướng dẫn SI. Giải quyết xung đột theo đúng thứ tự ưu tiên và quy tắc trong SI.
 4.  **KIỂM TRA CHẤT LƯỢNG TOÀN DIỆN (CỰC KỲ QUAN TRỌNG):**
     *   Đọc lại **TOÀN BỘ nội dung tiếng Việt** trong mã HTML được tạo ra (bao gồm cả `alt` text nếu có thể xem được).
     *   **Tự vấn nghiêm khắc dựa trên các Nguyên tắc và Yêu cầu trong SI & Prompt**:
@@ -119,7 +120,6 @@
         *   "Hình ảnh (`<img>`) có được xử lý đúng cách với **`alt` text tiếng Việt ý nghĩa** không?"
         *   "Bảng biểu (`<table>`) có **cấu trúc ngữ nghĩa đúng** và dễ hiểu không?"
         *   "Các yếu tố đặc biệt (text trong ảnh, cột, header/footer) đã được xử lý **đúng theo chỉ dẫn** chưa?"
-		*   "Các biểu thức, công thức toán học đã được xử lý **đúng theo chỉ dẫn** chưa?"
         *   "Phần Tài liệu Tham khảo (References) đã được xử lý đúng cách chưa? Các yếu tố cốt lõi (tác giả, tiêu đề, tạp chí, DOI, URL...) có được **giữ nguyên gốc 100%** không? Chỉ các ghi chú của tác giả gốc (nếu có) mới được dịch?"
             *   "Định dạng (đậm, nghiêng, list) và các liên kết (DOI/URL) trong References có được **bảo toàn chính xác** không?"
     *   **Nếu phát hiện bất kỳ vấn đề nào (đặc biệt về độ tự nhiên, lỗi hiển thị, cấu trúc sai, thiếu alt text, xử lý sai thuật ngữ...)**: **BẮT BUỘC phải sửa lại** trực tiếp trong HTML. Tái cấu trúc bản dịch thêm nữa nếu cần, điều chỉnh CSS, đơn giản hóa layout/bảng nếu cần, bổ sung/sửa `alt` text, sửa lại thuật ngữ, cho đến khi **hoàn toàn hài lòng** về mọi mặt theo đúng thứ tự ưu tiên. **Đừng ngại thay đổi đáng kể so với lần tạo mã đầu tiên.**
