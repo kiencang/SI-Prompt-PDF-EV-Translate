@@ -1,7 +1,7 @@
 **Nhiệm vụ Chính**: Dựa trên vai trò và các nguyên tắc hoạt động đã được định nghĩa chi tiết trong System Instructions (SI) nâng cao của bạn, hãy thực hiện:
 
 1.  **Dịch thuật Anh-Việt**: Dịch **cực kỳ chính xác về ý nghĩa** và **tuyệt đối tự nhiên về văn phong tiếng Việt** toàn bộ **nội dung văn bản có thể đọc được** và các thành phần có ngữ nghĩa (như alt text cho ảnh) từ tài liệu PDF tiếng Anh được cung cấp. **TUÂN THỦ NGHIÊM NGẶT Ưu tiên #1 và #2** trong SI, đặc biệt là yêu cầu **tái cấu trúc câu/đoạn một cách quyết liệt và sáng tạo**.
-2.  **Tái tạo sang HTML**: Trình bày bản dịch dưới dạng một **đoạn mã HTML thô hoàn chỉnh và ngữ nghĩa**. **Nỗ lực tối đa (best-effort)** để **bảo toàn layout và định dạng gốc** của PDF bằng HTML/CSS, nhưng **TUYỆT ĐỐI KHÔNG VI PHẠM Ưu tiên #3 (Tránh vỡ layout/Đảm bảo đọc được)** và luôn tuân thủ **Thứ tự Ưu tiên**, **Quy tắc Giải quyết Xung đột**, và các hướng dẫn xử lý yếu tố đặc biệt (ảnh, bảng, cột, header/footer, accessibility) trong SI.
+2.  **Tái tạo sang HTML**: Trình bày bản dịch dưới dạng một **đoạn mã HTML thô hoàn chỉnh và ngữ nghĩa**. **Nỗ lực tối đa (best-effort)** để **bảo toàn layout và định dạng gốc** của PDF bằng HTML/CSS, nhưng **TUYỆT ĐỐI KHÔNG VI PHẠM Ưu tiên #3 (Tránh vỡ layout/Đảm bảo đọc được)** và luôn tuân thủ **Thứ tự Ưu tiên**, **Quy tắc Giải quyết Xung đột**, và các hướng dẫn xử lý yếu tố đặc biệt (ảnh, bảng, cột, công thức toán học, tài liệu tham khảo, header/footer, bố cục chung của tài liệu, accessibility) trong SI.
 
 **Đầu vào**: Tài liệu PDF tiếng Anh.
 **Đầu ra**: Một đoạn mã HTML thô hoàn chỉnh, **không chứa bất kỳ văn bản nào khác ngoài mã HTML đó** (không lời dẫn, không giải thích, không markdown bao quanh).
@@ -92,6 +92,7 @@
     *   Xử lý **Hình ảnh (`<img>`)**: Đảm bảo có thẻ `<img>` với `src` hợp lý (hoặc placeholder) và **thuộc tính `alt` tiếng Việt có ý nghĩa** (hoặc `alt=""` nếu trang trí).
     *   Xử lý **Văn bản trong Ảnh/Biểu đồ**: Định vị CSS khéo léo, không che khuất.
     *   Xử lý **Bảng biểu (`<table>`)**: Đảm bảo **cấu trúc ngữ nghĩa** (`thead`, `tbody`, `th`, `td`), đơn giản hóa nếu cần để dễ đọc.
+	*   Xử lý **Biểu thức và Công thức Toán học**: Đảm bảo tuân thủ chính xác hướng dẫn nêu trong SI.
     *   Xử lý **Header/Footer**: Tích hợp hợp lý, không gây xáo trộn.
     *   Đảm bảo **HTML ngữ nghĩa** (semantic HTML) và tuân thủ **accessibility cơ bản** (cấu trúc heading, alt text, table headers).
 	*   **Tinh chỉnh Typography (Tùy chọn):** Trong khối `<style>`, hãy cân nhắc thêm các thuộc tính xử lý ngắt trang/ngắt cột cơ bản cho thẻ `<p>` (ví dụ: `orphans: 2; widows: 2;` hoặc `3`) để đảm bảo các đoạn văn không bị đứt gãy mồ côi/góa phụ khi người dùng in tài liệu hoặc xem trên các thiết bị có kích thước màn hình đặc thù, tăng tối đa tính chuyên nghiệp cho bản dịch.
