@@ -13,7 +13,7 @@
 2.  **Định dạng Output**: **CHỈ MÃ HTML THÔ.**
 3.  **Chất lượng Dịch thuật (NHẮC LẠI ƯU TIÊN CAO NHẤT):**
     *   **#1: CHÍNH XÁC Ý NGHĨA.**
-    *   **#1A: CHÍNH XÁC VÀ CHUẨN HÓA THUẬT NGỮ CHUYÊN NGÀNH (Đặc biệt cho tài liệu khoa học):** Tuân thủ nghiêm ngặt các hướng dẫn chi tiết trong Mục 3 của SI về xử lý thuật ngữ (ưu tiên thuật ngữ Việt chuẩn hóa, giữ nguyên gốc nếu không chắc/không có, giải thích lần đầu nếu cần, nhất quán tuyệt đối).
+    *   **#1A: CHÍNH XÁC VÀ CHUẨN HÓA THUẬT NGỮ CHUYÊN NGÀNH (Đặc biệt cho tài liệu khoa học):** Tuân thủ nghiêm ngặt các hướng dẫn chi tiết trong Mục 4 của SI về xử lý thuật ngữ (ưu tiên thuật ngữ Việt chuẩn hóa, giữ nguyên gốc nếu không chắc/không có, giải thích lần đầu nếu cần, nhất quán tuyệt đối).
     *   **#2: TIẾNG VIỆT TỰ NHIÊN TUYỆT ĐỐI (Bao gồm TÁI CẤU TRÚC MẠNH MẼ).**
         *   **Ưu tiên giọng chủ động (Có điều kiện):** Ưu tiên chuyển đổi câu bị động sang chủ động nếu phù hợp. **TUY NHIÊN, đối với tài liệu KHOA HỌC/KỸ THUẬT, hãy duy trì cấu trúc bị động (ví dụ: "được tiến hành", "được đo lường") nếu việc này giúp bảo đảm tính khách quan của thực nghiệm và giữ trọng tâm vào đối tượng nghiên cứu thay vì người thực hiện.**
         *   *Ví dụ Tái cấu trúc (Nhấn mạnh lại tầm quan trọng: Bạn hãy thấm nhuần tư duy này và áp dụng một cách sáng tạo, quyết liệt cho TOÀN BỘ bản dịch. Hãy thoát ly hoàn toàn khỏi cấu trúc câu tiếng Anh gốc, ưu tiên hàng đầu cho sự mạch lạc, tự nhiên và dễ hiểu trong tiếng Việt):*
@@ -108,7 +108,7 @@
     *   Đọc lại **TOÀN BỘ nội dung tiếng Việt** trong mã HTML được tạo ra (bao gồm cả `alt` text nếu có thể xem được).
     *   **Tự vấn nghiêm khắc dựa trên các Nguyên tắc và Yêu cầu trong SI & Prompt**:
         *   "Ý nghĩa có **chính xác 100%** so với gốc không?" (Ưu tiên #1)
-        *   "Các **thuật ngữ chuyên ngành** đã được xử lý **chính xác, chuẩn hóa, và nhất quán** theo Mục 3 của SI chưa (ví dụ: dùng từ Việt chuẩn, giữ nguyên gốc kèm giải thích nếu cần)?" (Ưu tiên #1A)
+        *   "Các **thuật ngữ chuyên ngành** đã được xử lý **chính xác, chuẩn hóa, và nhất quán** theo Mục 4 của SI chưa (ví dụ: dùng từ Việt chuẩn, giữ nguyên gốc kèm giải thích nếu cần)?" (Ưu tiên #1A)
         *   "Văn phong có **hoàn toàn tự nhiên, mượt mà như người Việt viết** không? Còn chút gượng gạo nào không?" (Ưu tiên #2)
         *   "Giọng văn, cách diễn đạt chung (ngoài thuật ngữ) có **nhất quán và phù hợp** không?"
         *   "Bố cục HTML có **rõ ràng, dễ đọc, không bị lỗi hiển thị** (chồng chéo, tràn, ẩn...) không?" (Ưu tiên #3)
@@ -118,6 +118,7 @@
         *   "Hình ảnh (`<img>`) có được xử lý đúng cách với **`alt` text tiếng Việt ý nghĩa** không?"
         *   "Bảng biểu (`<table>`) có **cấu trúc ngữ nghĩa đúng** và dễ hiểu không?"
         *   "Các yếu tố đặc biệt (text trong ảnh, cột, header/footer) đã được xử lý **đúng theo chỉ dẫn** chưa?"
+		*   "Các biểu thức, công thức toán học đã được xử lý **đúng theo chỉ dẫn** chưa?"
         *   "Phần Tài liệu Tham khảo (References) đã được xử lý đúng cách chưa? Các yếu tố cốt lõi (tác giả, tiêu đề, tạp chí, DOI, URL...) có được **giữ nguyên gốc 100%** không? Chỉ các ghi chú của tác giả gốc (nếu có) mới được dịch?"
             *   "Định dạng (đậm, nghiêng, list) và các liên kết (DOI/URL) trong References có được **bảo toàn chính xác** không?"
     *   **Nếu phát hiện bất kỳ vấn đề nào (đặc biệt về độ tự nhiên, lỗi hiển thị, cấu trúc sai, thiếu alt text, xử lý sai thuật ngữ...)**: **BẮT BUỘC phải sửa lại** trực tiếp trong HTML. Tái cấu trúc bản dịch thêm nữa nếu cần, điều chỉnh CSS, đơn giản hóa layout/bảng nếu cần, bổ sung/sửa `alt` text, sửa lại thuật ngữ, cho đến khi **hoàn toàn hài lòng** về mọi mặt theo đúng thứ tự ưu tiên. **Đừng ngại thay đổi đáng kể so với lần tạo mã đầu tiên.**
