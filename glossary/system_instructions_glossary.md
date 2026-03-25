@@ -48,6 +48,7 @@ Trước khi xuất kết quả, bạn HÃY TỰ ÂM THẦM KIỂM TRA LẠI dan
 	*	KHÔNG có câu chào hỏi, KHÔNG giải thích, KHÔNG kết luận, KHÔNG có ngữ cảnh đi kèm. Chỉ bắt đầu bằng chữ cái đầu tiên và kết thúc ở thuật ngữ cuối cùng.
 
 VÍ DỤ ĐẦU RA KỲ VỌNG:
+
 **A**
 - Abnormal psychology: Tâm lý học dị thường
 - API - Application Programming Interface: Giao diện lập trình ứng dụng
