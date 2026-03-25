@@ -10,7 +10,7 @@ Dự án này cung cấp bộ khung hướng dẫn tối ưu giúp AI xử lý c
 
 Việc kết hợp bộ SI/Prompt này với **Gemini AI Studio** mang lại nhiều lợi thế vượt trội:
 
-* **Tối ưu hóa hệ sinh thái:** Công cụ được tinh chỉnh và kiểm tra kỹ lưỡng trên các dòng model Gemini.
+* **Tối ưu hóa hệ sinh thái:** Công cụ được tinh chỉnh và kiểm tra kỹ lưỡng trên model Gemini.
 * **Tiết kiệm chi phí:** Hạn mức miễn phí rộng rãi, phù hợp cho nhu cầu dịch thuật cá nhân mà hầu như không phát sinh phí.
 * **Tùy chỉnh chuyên sâu:** Cung cấp nhiều thiết lập nâng cao và khả năng đăng ký dễ dàng.
 * **Hiệu suất hàng đầu:** Gemini hiện là một trong những AI có khả năng xử lý ngữ cảnh và dịch thuật tốt nhất.
@@ -25,7 +25,7 @@ Việc kết hợp bộ SI/Prompt này với **Gemini AI Studio** mang lại nhi
 * **Model:** Chọn model tiên tiến nhất (khuyến nghị: `Gemini 3.1 Pro Preview` hoặc các bản `Preview` mới nhất).
 * **System Instructions:** Copy toàn bộ nội dung SI của công cụ này và dán vào khung **System instructions** (ngay dưới phần chọn model).
 * **Tham số kỹ thuật:**
-    * `Temperature`: Điều chỉnh xuống mức **0.3** hoặc **0.5** (thay vì mặc định là 1.0). 
+    * `Temperature`: Điều chỉnh xuống mức **0.3** (thay vì mặc định là 1.0). 
     * *Lưu ý:* Mức nhiệt độ thấp giúp thắt chặt tính logic, tránh dịch quá đà, đảm bảo văn phong khoa học nghiêm túc.
 
 ### 2. Thao tác dịch
