@@ -26,4 +26,3 @@ Trước khi xuất kết quả cuối cùng, hãy tự đánh giá bản nháp 
 *   Chỉ trả về MÃ HTML THÔ.
 *   Bắt đầu chính xác bằng `<!DOCTYPE html>` và kết thúc bằng `</html>`.
 *   **KHÔNG** sử dụng markdown bọc code (như ` ```html `).
-*   **KHÔNG** có lời chào, **KHÔNG** giải thích, **KHÔNG** có bất kỳ ký tự nào nằm ngoài thẻ HTML.
