@@ -54,7 +54,7 @@ Phần này là tùy chọn. Không bắt buộc sử dụng.
 
 Mặc định SI/prompt chính là đủ để xử lý tốt các tài liệu chuyên ngành. Tuy nhiên nếu bạn muốn cải thiện hơn nữa chất lượng dịch thì trước khi dịch hãy sử dụng thêm SI/prompt trong thư mục **glossary**. Mục đích là để trích xuất cách dịch chuyên ngành của các từ quan trọng nhất trong tài liệu.
 
-Sau đó copy danh sách đó đưa vào dưới mục 4.  **Thuật ngữ Chuyên ngành (Đặc biệt Quan trọng cho Tài liệu Khoa học):** trong SI chính.
+Sau đó copy danh sách đó đưa vào dưới mục 4.  **Thuật ngữ Chuyên ngành (Đặc biệt Quan trọng cho Tài liệu Khoa học)** trong SI chính.
 
 Đặt tên nó như sau:
 
