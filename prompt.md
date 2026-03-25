@@ -25,4 +25,3 @@ Trước khi xuất kết quả cuối cùng, hãy tự đánh giá bản nháp 
 **[D] ĐỊNH DẠNG ĐẦU RA BẮT BUỘC (STRICT OUTPUT BOUNDARY):**
 *   Chỉ trả về MÃ HTML THÔ.
 *   Bắt đầu chính xác bằng `<!DOCTYPE html>` và kết thúc bằng `</html>`.
-*   **KHÔNG** sử dụng markdown bọc code (như ` ```html `).
