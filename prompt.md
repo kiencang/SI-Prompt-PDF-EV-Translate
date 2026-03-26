@@ -19,7 +19,7 @@ Hãy gọi lại và áp dụng tuyệt đối **"Hệ thống Thứ tự Ưu ti
 *	**Tối ưu thiết kế cho màn hình lớn**: Bản dịch cuối cùng có khả năng đọc được trên nhiều kích cỡ màn hình khác nhau, nhưng kích cỡ màn hình lớn (trên laptop/desktop) vẫn là ưu tiên cao nhất.
 
 **[C] BƯỚC TỰ ĐỐI SOÁT VÀ TINH CHỈNH (Internal QA - Thực hiện ngầm):**
-Trước khi xuất kết quả cuối cùng, hãy viết quá trình tự đối soát ngắn gọn vào đầu file bằng thẻ comment `<!-- Đây là một comment -->` trước khi bắt đầu thẻ `<!DOCTYPE html>`:
+Trước khi xuất kết quả cuối cùng, tự kiểm tra nội bộ:
 1.	*Văn phong đã đủ tự nhiên, trôi chảy chưa hay vẫn còn "mùi" dịch máy (word-by-word)?* -> Tự động sửa lại câu từ nếu thấy gượng gạo.
 2.	*Mã HTML có rủi ro tràn lề (overflow) hay cấu trúc thẻ sai logic không?* -> Tự động tối ưu lại CSS/HTML.
 
