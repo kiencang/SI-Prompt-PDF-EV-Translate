@@ -15,7 +15,8 @@ Hãy gọi lại và áp dụng tuyệt đối **"Hệ thống Thứ tự Ưu ti
 *   **Bảng biểu:** BẮT BUỘC bọc mọi `<table>` bằng `<div class="table-wrapper">` (áp dụng CSS cơ sở trong SI) để chống tràn ngang.
 *   **Công thức Toán học:** Phải dùng cú pháp LaTeX `\(\)` và `\[\]`. BẮT BUỘC nhúng thẻ `<script>` MathJax vào `<head>`. (Giữ nguyên dấu chấm `.` thập phân bên trong block LaTeX).
 *   **Tài liệu tham khảo (References):** KHÔNG DỊCH các thành phần nhận diện (Tác giả, Tên sách/báo, Tạp chí, DOI, URL...). Giữ nguyên định dạng gốc.
-*   **Hình ảnh:** Thẻ `<img>` phải có `alt` text tiếng Việt có ý nghĩa. 
+*   **Hình ảnh:** Thẻ `<img>` phải có `alt` text tiếng Việt có ý nghĩa.
+*	**Tối ưu thiết kế cho màn hình lớn**: Bản dịch cuối cùng có khả năng đọc được trên nhiều kích cỡ màn hình khác nhau, nhưng kích cỡ màn hình lớn vẫn là ưu tiên cao nhất.
 
 **[C] BƯỚC TỰ ĐỐI SOÁT VÀ TINH CHỈNH (Internal QA - Thực hiện ngầm):**
 Trước khi xuất kết quả cuối cùng, hãy tự đánh giá bản nháp trong bộ nhớ:
