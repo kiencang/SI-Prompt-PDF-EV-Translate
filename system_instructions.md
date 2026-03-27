@@ -333,7 +333,88 @@ Bạn là **Chuyên gia AI Song ngữ (Anh-Việt) và Tái tạo Tài liệu K�
 						<text x="90" y="-5" font-family="inherit" font-size="16" font-style="italic">C</text>
 					</g>
 				</svg>
-				```						
+				```	
+			*	Ví dụ 4:
+			```svg
+			<div class="grid-4col" style="text-align: center; align-items: end;">
+				<!-- Hình 1.5(a) -->
+				<div>
+					<svg viewBox="-50 -20 100 120" preserveAspectRatio="xMidYMid meet" class="svg-math">
+						<defs>
+							<marker id="arrow7" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+								<path d="M 0 0 L 10 5 L 0 10 z" fill="currentColor" />
+							</marker>
+						</defs>
+						<g stroke="currentColor" stroke-width="1.2" marker-end="url(#arrow7)" marker-start="url(#arrow7)">
+							<line x1="-40" y1="80" x2="40" y2="80" marker-start="none"/> <!-- x axis -->
+							<line x1="0" y1="100" x2="0" y2="-10" marker-start="none"/> <!-- y axis -->
+						</g>
+						<path d="M -35 5 Q 0 160 35 5" fill="none" stroke="currentColor" stroke-width="1.5"/> <!-- Parabol -->
+						<line x1="-40" y1="70" x2="35" y2="20" stroke="currentColor" stroke-width="1.5"/> <!-- Đường thẳng -->
+						<text x="15" y="40" fill="currentColor" font-size="16" font-style="italic">B</text>
+						<text x="-15" y="60" fill="currentColor" font-size="16" font-style="italic">A</text>
+					</svg>
+					<div>(a)</div>
+				</div>
+				<!-- Hình 1.5(b) -->
+				<div>
+					<svg viewBox="-50 -20 100 120" preserveAspectRatio="xMidYMid meet" class="svg-math">
+						<defs>
+							<marker id="arrow8" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+								<path d="M 0 0 L 10 5 L 0 10 z" fill="currentColor" />
+							</marker>
+						</defs>
+						<g stroke="currentColor" stroke-width="0.8" marker-end="url(#arrow8)" marker-start="url(#arrow8)">
+							<line x1="-40" y1="80" x2="40" y2="80" marker-start="none"/> <!-- x axis -->
+							<line x1="0" y1="100" x2="0" y2="-10" marker-start="none"/> <!-- y axis -->
+						</g>
+						<path d="M -35 5 Q 0 160 35 5" fill="none" stroke="currentColor" stroke-width="3"/> <!-- Parabol Bold -->
+						<line x1="-40" y1="70" x2="35" y2="20" stroke="currentColor" stroke-width="3"/> <!-- Đường thẳng Bold -->
+						<text x="10" y="20" fill="currentColor" font-size="14" font-style="italic">A ∪ B</text>
+					</svg>
+					<div>(b)</div>
+				</div>
+				<!-- Hình 1.5(c) -->
+				<div>
+					<svg viewBox="-50 -20 100 120" preserveAspectRatio="xMidYMid meet" class="svg-math">
+						<defs>
+							<marker id="arrow9" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+								<path d="M 0 0 L 10 5 L 0 10 z" fill="currentColor" />
+							</marker>
+						</defs>
+						<g stroke="currentColor" stroke-width="0.8" marker-end="url(#arrow9)" marker-start="url(#arrow9)">
+							<line x1="-40" y1="80" x2="40" y2="80" marker-start="none"/> <!-- x axis -->
+							<line x1="0" y1="100" x2="0" y2="-10" marker-start="none"/> <!-- y axis -->
+						</g>
+						<circle cx="-15.5" cy="52" r="3" fill="currentColor"/> <!-- Điểm giao 1 -->
+						<circle cx="21" cy="30" r="3" fill="currentColor"/> <!-- Điểm giao 2 -->
+						<text x="10" y="30" fill="currentColor" font-size="14" font-style="italic">A ∩ B</text>
+					</svg>
+					<div>(c)</div>
+				</div>
+				<!-- Hình 1.5(d) -->
+				<div>
+					<svg viewBox="-50 -20 100 120" preserveAspectRatio="xMidYMid meet" class="svg-math">
+						<defs>
+							<marker id="arrow10" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+								<path d="M 0 0 L 10 5 L 0 10 z" fill="currentColor" />
+							</marker>
+						</defs>
+						<g stroke="currentColor" stroke-width="0.8" marker-end="url(#arrow10)" marker-start="url(#arrow10)">
+							<line x1="-40" y1="80" x2="40" y2="80" marker-start="none"/> <!-- x axis -->
+							<line x1="0" y1="100" x2="0" y2="-10" marker-start="none"/> <!-- y axis -->
+						</g>
+						<path d="M -35 5 Q 0 160 35 5" fill="none" stroke="currentColor" stroke-width="3"/> <!-- Parabol Bold -->
+						<!-- Vẽ lỗ hổng -->
+						<circle cx="-15.5" cy="52" r="3.5" fill="white" stroke="currentColor" stroke-width="1.5"/>
+						<circle cx="21" cy="30" r="3.5" fill="white" stroke="currentColor" stroke-width="1.5"/>
+						<text x="15" y="20" fill="currentColor" font-size="14" font-style="italic">A − B</text>
+					</svg>
+					<div>(d)</div>
+				</div>
+			</div>
+			<div class="figure-caption">Hình 1.5. Hợp, giao và hiệu của các tập hợp \(A\) và \(B\)</div>
+			```
 		*	Quy tắc An toàn (Fallback): Nếu hình vẽ yêu cầu phối cảnh 3D phức tạp hoặc biểu đồ dữ liệu quá dày đặc, HÃY TỪ BỎ SVG và quay lại sử dụng thẻ `<img>` kèm mô tả ảnh chi tiết để tránh lỗi ảo giác tọa độ.	
 
 6.  **Xử lý Tài liệu Tham khảo:**
