@@ -1,6 +1,6 @@
 # SI-Prompt-EV-Translate
 
-> **System Instructions (SI) và Prompt chất lượng cao chuyên dụng cho nhiệm vụ dịch thuật tài liệu khoa học PDF (Anh - Việt).**
+> **Cung cấp System Instructions (SI) và Prompt chất lượng cao chuyên dụng cho nhiệm vụ dịch thuật tài liệu khoa học PDF từ tiếng Anh sang tiếng Việt.**
 
 Dự án này cung cấp bộ khung hướng dẫn tối ưu giúp AI xử lý các văn bản học thuật có độ phức tạp cao, đảm bảo độ chính xác về thuật ngữ và bảo toàn định dạng tốt nhất có thể.
 
