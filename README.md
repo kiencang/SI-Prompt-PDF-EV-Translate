@@ -40,6 +40,8 @@ Xem hướng dẫn trong hình bên dưới để biết thao tác cụ thể:
    <br><em>Nhập vào thông tin của SI</em>
 </p>
 
+--
+
 <p align="center">
   <img src="images/chon-model-temperature.png" alt="Chọn model AI và nhập vào thông số Temperature">
    <br><em>Chọn model AI và nhập vào thông số Temperature</em>
