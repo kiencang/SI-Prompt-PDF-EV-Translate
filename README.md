@@ -53,7 +53,7 @@ Xem hướng dẫn trong hình bên dưới để biết thao tác cụ thể:
 ### 2. Thao tác dịch
 1. Copy **Prompt** vào khung chat.
 2. Nhấn nút **+** để tải file **PDF** cần dịch lên.
-3. Nhấn **Enter** và đợi AI xử lý.
+3. Nhấn **Ctrl + Enter** và đợi AI xử lý.
 
 <p align="center">
   <img src="images/nhap-prompt.png" alt="Nhập Prompt và chọn file cần dịch">
