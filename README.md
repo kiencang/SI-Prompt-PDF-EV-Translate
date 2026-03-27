@@ -37,16 +37,23 @@ Xem hướng dẫn trong hình bên dưới để biết thao tác cụ thể:
 
 <p align="center">
   <img src="images/luu-SI.png" alt="Nhập vào thông tin của SI">
+   <br><em>Nhập vào thông tin của SI</em>
 </p>
 
 <p align="center">
   <img src="images/chon-model-temperature.png" alt="Chọn model AI và nhập vào thông số Temperature">
+   <br><em>Chọn model AI và nhập vào thông số Temperature</em>
 </p>
 
 ### 2. Thao tác dịch
 1. Copy **Prompt** vào khung chat.
 2. Nhấn nút **+** để tải file **PDF** cần dịch lên.
 3. Nhấn **Enter** và đợi AI xử lý.
+
+<p align="center">
+  <img src="images/nhap-prompt.png" alt="Nhập Prompt và chọn file cần dịch">
+  <br><em>Nhập Prompt và chọn file cần dịch</em>
+</p>
 
 ### 3. Độ dài của file PDF
 1. Trong mỗi lần gửi dữ liệu dịch nên giới hạn độ dài file PDF khoảng **10 trang** (có thể điều chỉnh con số với tài liệu thực tế). Lý do là vì mặc dù ngữ cành đầu vào cho phép đến hàng triệu Token, ngữ cảnh đầu ra (bản dịch) chịu giới hạn khoảng 64 ngàn Token.
