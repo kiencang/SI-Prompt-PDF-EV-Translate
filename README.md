@@ -13,12 +13,13 @@ Ví dụ về chất lượng dịch của bộ SI/prompt này, bạn có thể 
 
 ## 🚀 Tại sao nên sử dụng với Gemini AI Studio?
 
-Việc kết hợp bộ SI/Prompt này với **Gemini AI Studio** mang lại nhiều lợi thế vượt trội:
+Việc kết hợp bộ SI/Prompt này với **Gemini AI Studio** (https://aistudio.google.com/) mang lại nhiều lợi thế vượt trội:
 
 * **Tối ưu hóa hệ sinh thái:** Công cụ được tinh chỉnh và kiểm tra kỹ lưỡng trên model Gemini.
 * **Tiết kiệm chi phí:** Hạn mức miễn phí rộng rãi, phù hợp cho nhu cầu dịch thuật cá nhân mà hầu như không phát sinh phí.
 * **Tùy chỉnh chuyên sâu:** Cung cấp nhiều thiết lập nâng cao và khả năng đăng ký dễ dàng.
-* **Hiệu suất hàng đầu:** Gemini hiện là một trong những AI có khả năng xử lý ngữ cảnh và dịch thuật tốt nhất.
+* **Chất lượng cao:** Gemini hiện là một trong những AI có khả năng xử lý ngữ cảnh và dịch thuật tốt nhất.
+* **Đủ sức mạnh:** Bản AI Studio có sức mạnh để dịch văn bản dài, mà nếu bạn sử dụng các AI giao diện người dùng phổ thông khác thì thường không đủ (bản dịch thường bị cắt ngắn hoặc chất lượng thấp do không hiểu rõ hướng dẫn).
 
 ---
 
