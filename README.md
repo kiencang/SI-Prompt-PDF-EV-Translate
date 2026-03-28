@@ -160,7 +160,7 @@ Tuy nhiên nếu bạn muốn dùng phiên bản tinh gọn (chủ yếu để t
 
 ---
 
-## ⚖️ Giấy phép & Tuyên bố miễn trừ
+## ⚖️ Giấy phép & Tuyên bố miễn trừ trách nhiệm
 
 ### Giấy phép (License)
 Dự án được phát hành dưới bản quyền **MIT License**. Bạn hoàn toàn tự do sử dụng và tích hợp vào các dự án cá nhân hoặc thương mại.
