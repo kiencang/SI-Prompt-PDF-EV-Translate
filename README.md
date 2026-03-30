@@ -120,8 +120,8 @@ Mặc định SI/prompt tiêu chuẩn là đủ để xử lý rất tốt các 
 
 Nó có 2 phần:
 
-- prompt_glossary & system_instructions_glossary: dùng để trích xuất cách dịch từ chuyên ngành.
-- prompt_new & system_instructions_new: là bộ SI/prompt mới thay thế bộ tiêu chuẩn. Bạn sẽ copy danh sách từ chuyên ngành và đưa vào prompt_new
+- `prompt_glossary` & `system_instructions_glossary`: dùng để trích xuất cách dịch từ chuyên ngành.
+- `prompt_new` & `system_instructions_new`: là bộ SI/prompt mới thay thế bộ tiêu chuẩn. Bạn sẽ copy danh sách từ chuyên ngành và đưa vào prompt_new
 
 Lưu ý: Khi dùng, nhớ điền tên chuyên ngành của tài liệu vào trong `prompt_glossary`. Và khi đẩy lên AI yêu cầu cũng nên để **Temperature thấp**, từ 0.1 đến 0.3
 
