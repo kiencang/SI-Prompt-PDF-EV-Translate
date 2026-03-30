@@ -19,11 +19,10 @@ Hãy gọi lại và áp dụng tuyệt đối **"Hệ thống Thứ tự Ưu ti
 *	**Tối ưu thiết kế cho màn hình lớn**: Bản dịch cuối cùng có khả năng đọc được trên nhiều kích cỡ màn hình khác nhau, nhưng kích cỡ màn hình lớn (trên laptop/desktop) vẫn là ưu tiên cao nhất.
 
 **[C] BƯỚC TỰ ĐỐI SOÁT VÀ TINH CHỈNH (Internal QA - Thực hiện ngầm):**
-Trước khi xuất kết quả cuối cùng, bạn PHẢI tự kiểm tra nội bộ bằng cách in suy nghĩ vào thẻ `<thinking>`:
+Trước khi xuất kết quả cuối cùng, tự kiểm tra nội bộ:
 1.	*Văn phong đã đủ tự nhiên, trôi chảy chưa hay vẫn còn "mùi" dịch máy (word-by-word)?* -> Tự động sửa lại câu từ nếu thấy gượng gạo.
 2.	*Mã HTML có rủi ro tràn lề (overflow) hay cấu trúc thẻ sai logic không?* -> Tự động tối ưu lại CSS/HTML.
 
 **[D] ĐỊNH DẠNG ĐẦU RA BẮT BUỘC (STRICT OUTPUT BOUNDARY):**
-1. Mở thẻ `<thinking>` để thực hiện phân tích của Bước [C].
-2. Ngay sau khi đóng thẻ `</thinking>`, chỉ trả về **MÃ HTML THÔ** của toàn bộ trang.
-3. Mã HTML bắt đầu chính xác bằng `<!DOCTYPE html>` và kết thúc bằng `</html>`.
+*	Chỉ trả về MÃ HTML THÔ.
+*	Bắt đầu chính xác bằng `<!DOCTYPE html>` và kết thúc bằng `</html>`.
