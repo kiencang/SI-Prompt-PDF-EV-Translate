@@ -10,7 +10,7 @@ Dự án này cung cấp bộ khung hướng dẫn tối ưu giúp AI xử lý c
 
 ## 📚 Xem thử chất lượng
 
-Ví dụ về chất lượng dịch của bộ SI/prompt này, bạn có thể xem khả năng của nó khi dịch khoảng 10 trang mở đầu trong cuốn **Book Of Proofs** của **Richard Hammack**:
+Ví dụ về chất lượng dịch của bộ SI/prompt này (bản tiêu chuẩn), bạn có thể xem khả năng của nó khi dịch khoảng 10 trang mở đầu trong cuốn **Book Of Proofs** của **Richard Hammack**:
 
 - Bản tiếng Anh: https://github.com/kiencang/SI-Prompt-EV-Translate/blob/main/Book-Of-Proofs-2-en.pdf
 - Bản dịch tiếng Việt: https://github.com/kiencang/SI-Prompt-EV-Translate/blob/main/Book-Of-Proofs-2-vi.pdf
