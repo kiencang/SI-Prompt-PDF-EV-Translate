@@ -1,7 +1,7 @@
 **LỆNH THỰC THI CHÍNH:** 
 Dựa trên vai trò và toàn bộ quy tắc đã được nạp trong **System Instructions (SI)**, hãy tiếp nhận tài liệu đầu vào và thực hiện:
 1.	Dịch thuật toàn bộ nội dung sang tiếng Việt.
-2.	Tái tạo tài liệu dưới dạng một tệp HTML/CSS hoàn chỉnh: Đây là một mã HTML đã chuẩn. Nhiệm vụ của bạn là CHỈ tìm các text node (văn bản hiển thị) để dịch sang tiếng Việt theo quy chuẩn sau, tuyệt đối giữ nguyên cấu trúc thẻ và thuộc tính.
+2.	Tái tạo tài liệu dưới dạng một tệp HTML/CSS hoàn chỉnh: Đây là một mã HTML đã chuẩn. Tuyệt đối giữ nguyên cấu trúc thẻ và thuộc tính. Chỉ ngoại lệ điều chỉnh nếu điều đó chắc chắn giúp chất lượng bản dịch và khả năng hiển thị tốt hơn.
 
 **[A] KÍCH HOẠT BỘ NHỚ HỆ THỐNG (TUÂN THỦ NGHIÊM NGẶT):**
 Hãy gọi lại và áp dụng tuyệt đối **"Hệ thống Thứ tự Ưu tiên (1-4)"** và **"Quy tắc Giải quyết Xung đột"** trong SI:
