@@ -121,7 +121,7 @@ Mặc định SI/prompt tiêu chuẩn là đủ để xử lý rất tốt các 
 Nó có 2 phần:
 
 - prompt_glossary & system_instructions_glossary: dùng để trích xuất cách dịch từ chuyên ngành.
-- prompt_new & system_instructions_new: là bộ SI/Prompt mới thay thế bộ tiêu chuẩn. Bạn sẽ copy danh sách từ chuyên ngành và đưa vào prompt_new
+- prompt_new & system_instructions_new: là bộ SI/prompt mới thay thế bộ tiêu chuẩn. Bạn sẽ copy danh sách từ chuyên ngành và đưa vào prompt_new
 
 Lưu ý: Khi dùng, nhớ điền tên chuyên ngành của tài liệu vào trong `prompt_glossary`. Và khi đẩy lên AI yêu cầu cũng nên để **Temperature thấp**, từ 0.1 đến 0.3
 
@@ -137,13 +137,13 @@ system_instructions_new không phải chỉnh sửa gì, cứ thế dùng luôn.
 
 --
 
-Lưu ý 1: Lúc này Prompt sẽ chuyên cho tài liệu nó cần dịch, mỗi khi bạn dịch tài liệu khác cần cập nhật danh sách thuật ngữ chuyên ngành này.
+Lưu ý 1: Lúc này prompt sẽ chuyên cho tài liệu nó cần dịch, mỗi khi bạn dịch tài liệu khác cần cập nhật danh sách thuật ngữ chuyên ngành này.
 
 Lưu ý 2: Cách này thường chỉ tốt hơn mặc định khi tài liệu cần dịch có độ dài cao và phức tạp. Ngoài ra, tuy có triển vọng cải thiện chất lượng dịch, điều này không chắc chắn luôn đúng. Cách tốt nhất là bạn thử kiểm tra trên một số tài liệu và so sánh để có kết luận cụ thể.
 
 ---
 
-# ⚡ SI và prompt bản mini
+# ⚡ SI và prompt bản mini (chỉ để test, không quan trọng)
 
 Nhìn chung trong hầu hết trường hợp tôi khuyến khích bạn sử dụng SI/prompt tiêu chuẩn, nó là cái `system_instructions.md` và `prompt.md`, bởi vì nó cho **chất lượng bản dịch cao hơn đáng kể**.
 
