@@ -117,7 +117,7 @@ Một số nhận xét:
 - Tùy chọn 2 sẽ phù hợp với tài liệu có cấu trúc đơn giản.
 - Tùy chọn 3 đem lại cải thiện không quá rõ ràng, về lý thuyết thì nó sẽ chắc chắn cải thiện, còn thực tế có thể không được như mong muốn. Nguyên nhân có thể là vì chỉ thị tiêu chuẩn vốn đã hơi quá tải, và giờ thêm cả hướng dẫn về bảng từ chuyên ngành sẽ khiến nó càng thêm nặng.
 
----
+--
 
 ## 🔄 SI và prompt bản chia phase theo giai đoạn | Tùy chọn 1
 
@@ -130,7 +130,7 @@ Nó gồm 2 cặp SI/prompt sau:
 
 Tùy chọn này có khả năng cải thiện chất lượng dịch cao nhất so với các tùy chọn còn lại (nhất là với file PDF phức tạp), vì nó giúp AI tránh bị quá tải chỉ thị (dù đã dùng model tiên tiến nhất) như khi dùng bản tiêu chuẩn. Tuy nhiên nó sẽ khiến bạn mất thời gian và cả tốn token hơn (thường là gấp đôi so với bản tiêu chuẩn) để tạo ra bản dịch hoàn chỉnh.
 
----
+--
 
 ## 🔄 SI và prompt bản tinh chỉnh (refine) | Tùy chọn 2
 
@@ -143,7 +143,7 @@ Hiện trong thư mục đang có những bản tinh chỉnh sau:
 - `x_svg`: chứa SI & prompt loại bỏ chỉ thị liên quan đến tạo sơ đồ, biểu đồ toán học. Nhiều tài liệu không cần đến các chỉ thị này... Chỉ thị liên quan đến tạo sơ đồ biểu đồ chiếm khoảng 25% dung lượng của bản SI tiêu chuẩn, do vậy việc loại bỏ nó khi không cần thiết có khả năng cải thiện khá cao mức độ tập trung của SI. Đây có thể là phiên bản tinh chỉnh bạn sẽ hay dùng nhất.
 - `x_math`: chứa SI & prompt loại bỏ hoàn toàn chỉ thị liên quan đến tạo công thức toán & cả svg. Một số tài liệu sẽ không cần cả hai chỉ thị này. Nếu tài liệu của bạn vẫn có các công thức toán học nhưng không có sơ đồ, biểu đồ thì nên dùng `x_svg` thay vì `x_math`.
 
----
+--
 
 ## 🔄 Nâng cao SI với danh sách thuật ngữ chuyên ngành | Tùy chọn 3
 
