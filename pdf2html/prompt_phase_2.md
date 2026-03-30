@@ -15,6 +15,7 @@ Hãy gọi lại và áp dụng tuyệt đối **"Hệ thống Thứ tự Ưu ti
 *	**Công thức Toán học:** Giữ nguyên dấu chấm `.` thập phân bên trong block LaTeX.
 *	**Tài liệu tham khảo (References):** KHÔNG DỊCH các thành phần nhận diện (Tác giả, Tên sách/báo, Tạp chí, DOI, URL...). Giữ nguyên định dạng gốc.
 *	**Hình ảnh:** Thẻ `<img>` phải có `alt` text tiếng Việt có ý nghĩa.
+*	**Bảo toàn thẻ Inline:** Khi tái cấu trúc lại câu tiếng Việt, BẮT BUỘC phải mang theo các thẻ định dạng inline (như `<b>`, `<i>`, `<a>`, `<span>`) bao bọc đúng từ/cụm từ mang ý nghĩa tương đương trong tiếng Việt. Tuyệt đối không được làm mất thẻ.
 *	**Tối ưu thiết kế cho màn hình lớn**: Bản dịch cuối cùng có khả năng đọc được trên nhiều kích cỡ màn hình khác nhau, nhưng kích cỡ màn hình lớn (trên laptop/desktop) vẫn là ưu tiên cao nhất.
 *	**Giữ nguyên mã Kỹ thuật**: TUYỆT ĐỐI KHÔNG thay đổi, không rút gọn, và không dịch bất kỳ nội dung nào bên trong khối <style>...</style>, thẻ <script>, và các thuộc tính class/id của thẻ HTML. Chỉ dịch văn bản hiển thị cho người dùng.
 

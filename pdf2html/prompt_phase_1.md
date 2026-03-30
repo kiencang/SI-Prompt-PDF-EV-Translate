@@ -14,7 +14,8 @@ Hãy gọi lại và áp dụng tuyệt đối **"Thứ tự Ưu tiên KHÔNG TH
 *	**Công thức Toán học:** Phải dùng cú pháp LaTeX `\(\)` và `\[\]`. BẮT BUỘC nhúng thẻ `<script>` MathJax vào `<head>`. (Giữ nguyên dấu chấm `.` thập phân bên trong block LaTeX).
 *	**Tài liệu tham khảo (References):** Giữ nguyên định dạng gốc.
 *	**Hình ảnh:** Thẻ `<img>` phải có `alt` text tiếng Anh có ý nghĩa.
-*	**Tối ưu thiết kế cho màn hình lớn**: Bản HTML/CSS cuối cùng có khả năng đọc được trên nhiều kích cỡ màn hình khác nhau, nhưng kích cỡ màn hình lớn (trên laptop/desktop) vẫn là ưu tiên cao nhất.
+*	**Header/Footer PDF:** Tự động nhận diện và loại bỏ/gom nhóm các Header/Footer bị chèn ngang làm đứt gãy đoạn văn gốc, đảm bảo tính liên tục của đoạn văn bản.
+*	**Tối ưu thiết kế cho màn hình lớn:** Bản HTML/CSS cuối cùng có khả năng đọc được trên nhiều kích cỡ màn hình khác nhau, nhưng kích cỡ màn hình lớn (trên laptop/desktop) vẫn là ưu tiên cao nhất.
 
 **[C] BƯỚC TỰ ĐỐI SOÁT VÀ TINH CHỈNH (Internal QA - Thực hiện ngầm):**
 Trước khi xuất kết quả cuối cùng, tự kiểm tra nội bộ:
