@@ -1,7 +1,7 @@
 **LỆNH THỰC THI CHÍNH:** 
 Dựa trên vai trò và toàn bộ quy tắc đã được nạp trong **System Instructions (SI)**, hãy tiếp nhận tài liệu đầu vào và thực hiện:
 1.	Dịch thuật toàn bộ nội dung sang tiếng Việt.
-2.	Tái tạo tài liệu dưới dạng một tệp HTML/CSS hoàn chỉnh.
+2.	Tái tạo tài liệu dưới dạng một tệp HTML/CSS hoàn chỉnh: Đây là một mã HTML đã chuẩn. Nhiệm vụ của bạn là CHỈ tìm các text node (văn bản hiển thị) để dịch sang tiếng Việt theo quy chuẩn sau, tuyệt đối giữ nguyên cấu trúc thẻ và thuộc tính.
 
 **[A] KÍCH HOẠT BỘ NHỚ HỆ THỐNG (TUÂN THỦ NGHIÊM NGẶT):**
 Hãy gọi lại và áp dụng tuyệt đối **"Hệ thống Thứ tự Ưu tiên (1-4)"** và **"Quy tắc Giải quyết Xung đột"** trong SI:
@@ -12,6 +12,7 @@ Hãy gọi lại và áp dụng tuyệt đối **"Hệ thống Thứ tự Ưu ti
 
 **[B] CHECKLIST KỸ THUẬT QUAN TRỌNG:**
 *	**Cột & Layout:** Ép luồng văn bản chính về **1 CỘT DUY NHẤT**.
+*	**Công thức Toán học:** Giữ nguyên dấu chấm `.` thập phân bên trong block LaTeX.
 *	**Tài liệu tham khảo (References):** KHÔNG DỊCH các thành phần nhận diện (Tác giả, Tên sách/báo, Tạp chí, DOI, URL...). Giữ nguyên định dạng gốc.
 *	**Hình ảnh:** Thẻ `<img>` phải có `alt` text tiếng Việt có ý nghĩa.
 *	**Tối ưu thiết kế cho màn hình lớn**: Bản dịch cuối cùng có khả năng đọc được trên nhiều kích cỡ màn hình khác nhau, nhưng kích cỡ màn hình lớn (trên laptop/desktop) vẫn là ưu tiên cao nhất.
