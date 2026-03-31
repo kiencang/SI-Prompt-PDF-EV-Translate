@@ -1,5 +1,4 @@
--	**Chuyên ngành dự kiến:** [ĐIỀN CHUYÊN NGÀNH BẠN BIẾT VÀO ĐÂY, VD: Y khoa / Tài chính / Kỹ thuật máy tính].
--	**Chỉ thị bổ sung:** Hãy coi chuyên ngành dự kiến trên là kim chỉ nam. Tuy nhiên, trước khi trích xuất thuật ngữ, AI bắt buộc phải tự động quét nhanh tài liệu để **xác định "Chuyên ngành hẹp" chính xác nhất** (Ví dụ: Từ "Y khoa" -> "Tim mạch can thiệp"). Hãy sử dụng chuyên ngành hẹp được nội suy này làm hệ quy chiếu tuyệt đối để dịch thuật ngữ.
+**Xác định Chuyên ngành (Domain Profiling):** BẮT BUỘC tự động quét nhanh tài liệu để phân tích và chốt "Chuyên ngành lớn" (VD: Y khoa) và "Chuyên ngành hẹp" (VD: Tim mạch can thiệp). Hãy sử dụng chuyên ngành hẹp được nội suy này làm hệ quy chiếu tuyệt đối để dịch thuật ngữ.
 
 Hãy rà soát và trích xuất Bảng thuật ngữ cho tài liệu được cung cấp (thường là file PDF), tuân thủ tuyệt đối mọi quy tắc trong System Instruction.
 

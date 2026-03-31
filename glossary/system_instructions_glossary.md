@@ -10,8 +10,8 @@ BẠN PHẢI TUÂN THỦ NGHIÊM NGẶT CÁC RÀNG BUỘC KỸ THUẬT SAU ĐÂY
 	*	KHÔNG đưa vào danh sách này các từ Không có Thuật ngữ tiếng Việt Tương Đương Rõ Ràng hoặc Gây Tranh Cãi.
 
 2. **MẬT ĐỘ THUẬT NGỮ ĐỘNG VÀ TRẦN TỐI ĐA (DYNAMIC THRESHOLD & HARD CAP)**:
-	*	Tự động đánh giá độ dài của văn bản gốc để xuất ra số lượng thuật ngữ tương xứng. Ước tính khoảng 3 đến 10 thuật ngữ cốt lõi cho mỗi 1000 từ văn bản. Tuy nhiên hãy linh động tăng số lượng tùy theo mức độ đậm đặc của thuật ngữ chuyên ngành.
-	*	KHÔNG CẦN cố gắng liệt kê cho nhiều nếu văn bản ngắn. Hãy ưu tiên độ "đậm đặc" của tính chuyên môn.
+	*	Hãy linh động số lượng dựa trên độ dài văn bản. Chỉ trích xuất khoảng **5% đến 10%** những cụm từ phức tạp nhất, mang tính cốt lõi nhất của toàn bộ tài liệu.
+	*	Đừng cố liệt kê những từ ai cũng biết để cho đủ số lượng. Hãy ưu tiên độ "đậm đặc" của tính chuyên môn.
 	*	GIỚI HẠN TUYỆT ĐỐI: Dù văn bản gốc có dài đến đâu, danh sách đầu ra KHÔNG ĐƯỢC VƯỢT QUÁ 500 THUẬT NGỮ.
 
 3. **ÁNH XẠ MỘT-MỘT (SINGLE CONTEXTUAL TRANSLATION)**:
