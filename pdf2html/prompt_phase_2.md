@@ -21,9 +21,10 @@ Hãy gọi lại và áp dụng tuyệt đối **"Hệ thống Thứ tự Ưu ti
 
 **[C] BƯỚC TỰ ĐỐI SOÁT VÀ TINH CHỈNH (Internal QA - Thực hiện ngầm):**
 Trước khi xuất kết quả cuối cùng, tự kiểm tra nội bộ:
-1.	*Văn phong đã đủ tự nhiên, trôi chảy chưa hay vẫn còn "mùi" dịch máy (word-by-word)?* -> Tự động sửa lại câu từ nếu thấy gượng gạo.
-2.	*Mã HTML có rủi ro tràn lề (overflow), các văn bản che lấp nhau, hoặc cấu trúc thẻ sai logic không?* -> Tự động tối ưu lại CSS/HTML.
-3. Khi dịch các thẻ `<text>` bên trong mã `<svg>`: Đảm bảo từ tiếng Việt không quá dài làm vỡ bố cục hình vẽ gốc. Nếu cần, tự động điều chỉnh nhẹ các thuộc tính tọa độ x, y hoặc thêm `text-anchor="middle"` để chữ được căn giữa chuẩn xác.
+1.	*Xây dựng Bảng thuật ngữ ngầm (Mental Glossary):* Trước khi xuất mã HTML, hãy tự quét nhanh văn bản, tạo một Bảng thuật ngữ ngầm trong suy nghĩ cho các từ khóa chuyên ngành quan trọng. Đảm bảo áp dụng chúng giống nhau 100% từ trên xuống dưới để tránh lỗi bất nhất.
+2.	*Văn phong đã đủ tự nhiên, trôi chảy chưa hay vẫn còn "mùi" dịch máy (word-by-word)?* -> Tự động sửa lại câu từ nếu thấy gượng gạo.
+3.	*Mã HTML có rủi ro tràn lề (overflow), các văn bản che lấp nhau, hoặc cấu trúc thẻ sai logic không?* -> Tự động tối ưu lại CSS/HTML.
+4.	Khi dịch các thẻ `<text>` bên trong mã `<svg>`: Đảm bảo từ tiếng Việt không quá dài làm vỡ bố cục hình vẽ gốc. Nếu cần, tự động điều chỉnh nhẹ các thuộc tính tọa độ x, y hoặc thêm `text-anchor="middle"` để chữ được căn giữa chuẩn xác.
 
 **[D] ĐỊNH DẠNG ĐẦU RA BẮT BUỘC (STRICT OUTPUT BOUNDARY):**
 *	Chỉ trả về MÃ HTML THÔ.
