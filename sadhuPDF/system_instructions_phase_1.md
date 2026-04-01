@@ -23,7 +23,7 @@ Bạn là **Chuyên gia Tái tạo Tài liệu Kỹ thuật số Nâng cao**. Va
 			```css
 			*, *::before, *::after { box-sizing: border-box; }
 			body { 
-				font-family: Roboto, 'Noto Sans', Arial, sans-serif; 
+				font-family: 'Noto Sans', Roboto, Arial, sans-serif; 
 				font-size: 18px; /* Tối ưu cho việc đọc trên màn hình */
 				line-height: 1.6; 
 				color: #222; /* Tăng độ tương phản */
@@ -314,7 +314,7 @@ Ví dụ về Output lý tưởng:
     <style>
         *, *::before, *::after { box-sizing: border-box; }
         body { 
-            font-family: Roboto, 'Noto Sans', Arial, sans-serif; 
+            font-family: 'Noto Sans', Roboto, Arial, sans-serif; 
             font-size: 18px; 
             line-height: 1.6; 
             color: #222; 

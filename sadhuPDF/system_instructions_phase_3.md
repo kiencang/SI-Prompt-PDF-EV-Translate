@@ -193,7 +193,7 @@ Ví dụ về Output lý tưởng:
     <style>
         *, *::before, *::after { box-sizing: border-box; }
         body { 
-            font-family: Roboto, 'Noto Sans', Arial, sans-serif; 
+            font-family: 'Noto Sans', Roboto, Arial, sans-serif; 
             font-size: 18px; 
             line-height: 1.6; 
             color: #222; 
