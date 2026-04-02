@@ -4,12 +4,13 @@ Dựa trên vai trò và toàn bộ quy tắc đã được nạp trong **System
 2.	Tái tạo tài liệu dưới dạng một tệp HTML/CSS hoàn chỉnh.
 
 **[A] Danh sách tham khảo các thuật ngữ chuyên ngành:**
+Dưới đây là danh sách cách dịch các từ cốt lõi & từ chuyên môn hẹp của tài liệu. Nếu từ nào có gắn dấu `[*]` ở cuối là từ còn rất mới chưa có từ tiếng Việt chuẩn thống nhất.
 
 <glossary>
 [DÁN DANH SÁCH THUẬT NGỮ ĐÃ TRÍCH XUẤT ]
 </glossary>
 
-*	Tuy nhiên chúng không phải cách dịch mà bạn cần tuân thủ tuyệt đối. Hãy sử dụng & điều chỉnh nó linh hoạt khi cần.
+*	Tuy nhiên chúng không phải cách dịch mà bạn cần tuân thủ tuyệt đối. Hãy sử dụng & điều chỉnh nó linh hoạt dựa theo bối cảnh của tài liệu gốc.
 *	Vẫn áp dụng các quy tắc trong phần *4. Thuật ngữ Chuyên ngành (Đặc biệt Quan trọng cho Tài liệu Khoa học)* của SI, mục đích là để bạn có được cách dịch từ chuyên ngành tốt nhất.
 
 **[B] KÍCH HOẠT BỘ NHỚ HỆ THỐNG (TUÂN THỦ NGHIÊM NGẶT):**
