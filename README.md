@@ -72,7 +72,7 @@ Xem hướng dẫn trong hình bên dưới để biết thao tác cụ thể:
 
 ---
 
-## 📝 Lưu ý kỹ thuật quan trọng khác
+## ⚡ Lưu ý kỹ thuật quan trọng khác
 
 * **Thời gian xử lý:** Do tính chất phức tạp của tài liệu khoa học, thời gian hoàn thành có thể dao động từ **150s đến 600s** tùy độ dài file.
 * **Định dạng đầu ra:** Kết quả trả về ở dạng **mã HTML**.
@@ -139,7 +139,7 @@ Về cách trích xuất các từ chuyên ngành tham khảo phần **Nâng cao
 
 --
 
-### ⚡ Nâng cao thêm chất lượng dịch với danh sách từ chuyên ngành bổ sung vào prompt
+### 📝 Nâng cao thêm chất lượng dịch với danh sách từ chuyên ngành bổ sung vào prompt
 
 Phần này là tùy ý. Không bắt buộc sử dụng. Nhưng khuyên dùng vì thường cải thiện chất lượng dịch, đặc biệt trên tài liệu dài hoặc khó (hoặc cả hai).
 
