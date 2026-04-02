@@ -151,15 +151,15 @@ Một số bài nghiên cứu, phê bình thuộc lĩnh vực xã hội có các
 
 --
 
-## 🔄 Nâng cao SI với danh sách thuật ngữ chuyên ngành | Nâng cao khi cần
+## 🔄 Nâng cao thêm chất lượng dịch với danh sách từ chuyên ngành bổ sung vào prompt
 
 Phần này là tùy ý. Không bắt buộc sử dụng.
 
-Mặc định SI/prompt tiêu chuẩn là đủ để xử lý rất tốt các tài liệu chuyên ngành. Tuy nhiên nếu bạn muốn cải thiện hơn nữa chất lượng dịch thì hãy sử dụng bộ SI/prompt trong thư mục **glossary**. Mục đích là để trích xuất cách dịch chuyên ngành của các từ quan trọng nhất trong tài liệu.
+Mặc định SI/prompt mẫu là tương đối tốt để xử lý các tài liệu chuyên ngành. Tuy nhiên nếu bạn muốn cải thiện hơn nữa chất lượng dịch thì hãy sử dụng bộ SI/prompt trong thư mục **glossary** để trích xuất cách dịch chuyên ngành của các từ quan trọng nhất trong tài liệu.
 
-`prompt_glossary` & `system_instructions_glossary` dùng để trích xuất cách dịch từ chuyên ngành.
+Vào thư mục đó bạn sẽ thấy các file `prompt_glossary` & `system_instructions_glossary` dùng để trích xuất cách dịch từ chuyên ngành.
 
-Khi đẩy lên AI yêu cầu cũng nên để **Temperature thấp**, từ 0.1 đến 0.3
+Khi đẩy lên AI, cũng nên để **Temperature thấp**, từ 0.1 đến 0.3
 
 Sau đó copy danh sách kết quả đưa vào prompt có hậu tố `_glossary` trong mỗi tùy chọn trên:
 
@@ -169,7 +169,9 @@ Sau đó copy danh sách kết quả đưa vào prompt có hậu tố `_glossary
 </glossary>
 ```
 
-`system_instructions` không phải chỉnh sửa gì, cứ thế dùng luôn.
+Lúc này Prompt sẽ cung cấp thêm cho AI danh sách từ chuyên ngành để tham khảo trước khi dịch.
+
+`system_instructions` tương ứng không phải chỉnh sửa gì, cứ thế dùng luôn.
 
 --
 
