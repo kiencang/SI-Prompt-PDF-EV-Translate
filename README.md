@@ -76,7 +76,20 @@ Xem hướng dẫn trong hình bên dưới để biết thao tác cụ thể:
 
 * **Thời gian xử lý:** Do tính chất phức tạp của tài liệu khoa học, thời gian hoàn thành có thể dao động từ **150s đến 600s** tùy độ dài file.
 * **Định dạng đầu ra:** Kết quả trả về ở dạng **mã HTML**.
-    * 💡 *Lời khuyên:* Mở ứng dụng Notepad trên Windows (hoặc TextEdit trên Mac), dán đoạn mã vào, chọn File -> Save As. Tại mục 'Save as type' chọn 'All Files', và đặt tên file có đuôi `.html` (Ví dụ: `bandich.html`). Sau đó click đúp vào file để mở bằng trình duyệt.
+    * 💡 *Lời khuyên:* Mở ứng dụng Notepad trên Windows (hoặc TextEdit trên Mac), dán đoạn mã vào, chọn File -> Save As. Tại mục 'Save as type' chọn 'All Files', và đặt tên file có đuôi `.html` (Ví dụ: `bandich.html`). Sau đó click đúp vào file để mở bằng trình duyệt. Xem hình bên dưới để rõ hơn cách làm.
+
+<p align="center">
+  <img src="images/paste-notepad.png" alt="Copy - Paste vào NotePad">
+   <br><em>Copy - Paste mã nguồn vào NotePad</em>
+</p>
+
+--
+
+<p align="center">
+  <img src="images/luu-file-html.png" alt="Lưu file dưới định dạng html">
+   <br><em>Lưu file dưới định dạng .html</em>
+</p>
+
 * **Khả năng bảo toàn:** Công cụ hỗ trợ giữ định dạng rất tốt nhưng không thể hoàn hảo 100% đối với mọi loại bố cục PDF phức tạp. Ảnh dạng sơ đồ biểu đồ không quá phức tạp thường được tái tạo lại tương đối tốt, riêng các ảnh dạng ảnh chụp (như ảnh chụp bằng điện thoại, máy ảnh, từ chuyên ngành gọi là bitmap/raster) trong file PDF sẽ không được tái tạo trong bản dịch.
 
 --
