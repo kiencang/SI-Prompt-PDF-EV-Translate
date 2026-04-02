@@ -198,14 +198,6 @@ Tùy chọn 4 mất thời gian và tốn Token nhất, và cũng chỉ nên áp
 
 ---
 
-# ⚡ SI và prompt bản mini (chỉ để test, không quá quan trọng)
-
-Nhìn chung trong hầu hết trường hợp tôi khuyến khích bạn sử dụng SI/prompt tiêu chuẩn hoặc các bản tùy chọn, vì chúng cho **chất lượng bản dịch cao hơn đáng kể**.
-
-Tuy nhiên nếu bạn muốn dùng phiên bản tinh gọn (chủ yếu để thấy sự khác biệt trong chỉ thị ảnh hưởng đến kết quả dịch thế nào), bạn có thể dùng phiên bản mini để kiểm tra, nó là cái `system_instructions_mini.md` và `prompt_mini.md` nằm trong thư mục `mini`. Bạn nên dùng cùng một model AI để test, điều đó giúp kết quả khách quan hơn.
-
----
-
 ## ⚖️ Giấy phép & Tuyên bố miễn trừ trách nhiệm
 
 ### Giấy phép (License)
