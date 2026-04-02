@@ -150,31 +150,29 @@ Một số bài nghiên cứu, phê bình thuộc lĩnh vực xã hội có các
 
 ## 🔄 Nâng cao thêm chất lượng dịch với danh sách từ chuyên ngành bổ sung vào prompt
 
-Phần này là tùy ý. Không bắt buộc sử dụng.
+Phần này là tùy ý. Không bắt buộc sử dụng. Nhưng khuyên dùng vì thường cải thiện chất lượng dịch, đặc biệt trên tài liệu dài hoặc khó (hoặc cả hai).
 
-Mặc định SI/prompt mẫu là tương đối tốt để xử lý các tài liệu chuyên ngành. Tuy nhiên nếu bạn muốn cải thiện hơn nữa chất lượng dịch thì hãy sử dụng bộ SI/prompt trong thư mục **`glossary`** để trích xuất cách dịch chuyên ngành của các từ quan trọng nhất trong tài liệu.
+Mặc định SI/prompt mẫu là tương đối tốt để xử lý các tài liệu chuyên ngành. Tuy nhiên nếu bạn muốn cải thiện hơn nữa chất lượng dịch thì hãy sử dụng bộ SI/prompt trong thư mục **`glossary_ext`** để trích xuất cách dịch chuyên ngành & các từ cốt lõi trong tài liệu.
 
-Vào thư mục đó bạn sẽ thấy các file `prompt_ext_glossary` & `system_instructions_ext_glossary` dùng để trích xuất cách dịch từ chuyên ngành.
+Vào thư mục đó bạn sẽ thấy các file `prompt_glossary_ext` & `system_instructions_glossary_ext` dùng để trích xuất cách dịch từ chuyên ngành.
 
-Khi đẩy lên AI, cũng nên để **Temperature thấp**, từ 0.1 đến 0.3
+Khi đẩy lên AI, cũng nên để **Temperature thấp**, thường là **0.3**
 
-Sau đó copy danh sách kết quả đưa vào prompt có hậu tố `_glossary` trong mỗi tùy chọn trên:
+Sau đó copy danh sách kết quả đưa vào prompt có hậu tố `_glossary` trong mỗi tùy chọn trên (các prompt tùy chỉnh sẽ nằm trong thư mục `glossary` của Tùy chọn tương ứng):
 
 ```
 <glossary>
-[DÁN DANH SÁCH THUẬT NGỮ ĐÃ TRÍCH XUẤT TỪ BƯỚC trích xuất từ chuyên ngành VÀO ĐÂY]
+[DÁN DANH SÁCH THUẬT NGỮ ĐÃ TRÍCH XUẤT TỪ TÀI LIỆU]
 </glossary>
 ```
 
-Lúc này Prompt sẽ cung cấp thêm cho AI danh sách từ chuyên ngành để tham khảo trước khi dịch.
+Lúc này Prompt mới sẽ cung cấp thêm cho AI danh sách từ chuyên ngành để tham khảo trước khi dịch.
 
 `system_instructions` tương ứng không phải chỉnh sửa gì, cứ thế dùng luôn.
 
 --
 
-Lưu ý 1: Lúc này prompt sẽ chuyên cho tài liệu nó cần dịch, mỗi khi bạn dịch tài liệu khác cần cập nhật danh sách thuật ngữ chuyên ngành này.
-
-Lưu ý 2: Cách này thường sẽ tốt hơn bản mẫu khi tài liệu cần dịch có độ dài cao và phức tạp. Rất khuyến khích dùng vì đây là cách không tốn kém để cải thiện chất lượng dịch lên đáng kể.
+Lưu ý: Lúc này prompt sẽ chuyên cho tài liệu nó cần dịch, mỗi khi bạn dịch tài liệu khác cần cập nhật danh sách thuật ngữ chuyên ngành này.
 
 ---
 
