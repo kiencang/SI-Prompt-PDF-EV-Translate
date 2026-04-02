@@ -154,7 +154,7 @@ Phần này là tùy ý. Không bắt buộc sử dụng.
 
 Mặc định SI/prompt mẫu là tương đối tốt để xử lý các tài liệu chuyên ngành. Tuy nhiên nếu bạn muốn cải thiện hơn nữa chất lượng dịch thì hãy sử dụng bộ SI/prompt trong thư mục **glossary** để trích xuất cách dịch chuyên ngành của các từ quan trọng nhất trong tài liệu.
 
-Vào thư mục đó bạn sẽ thấy các file `prompt_glossary` & `system_instructions_glossary` dùng để trích xuất cách dịch từ chuyên ngành.
+Vào thư mục đó bạn sẽ thấy các file `prompt_ext_glossary` & `system_instructions_ext_glossary` dùng để trích xuất cách dịch từ chuyên ngành.
 
 Khi đẩy lên AI, cũng nên để **Temperature thấp**, từ 0.1 đến 0.3
 
