@@ -3,8 +3,7 @@ Dựa trên vai trò và toàn bộ quy tắc đã được nạp trong **System
 1.	Dịch thuật toàn bộ nội dung sang tiếng Việt.
 2.	Tái tạo tài liệu dưới dạng một tệp HTML/CSS hoàn chỉnh.
 
-**[A] Danh sách tham khảo các thuật ngữ chuyên ngành:**
-Dưới đây là danh sách cách dịch các từ cốt lõi & từ chuyên môn hẹp của tài liệu. Nếu từ nào có gắn dấu `[*]` ở cuối là từ còn rất mới chưa có từ tiếng Việt chuẩn thống nhất.
+**[A] Danh sách tham khảo các từ cốt lõi & thuật ngữ chuyên ngành:**
 
 <glossary>
 [DÁN DANH SÁCH THUẬT NGỮ ĐÃ TRÍCH XUẤT ]
