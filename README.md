@@ -181,7 +181,7 @@ Ví dụ kết quả dịch bằng tùy chọn này: https://github.com/kiencang
 Tùy chọn này còn có thêm 2 biến thể:
 
 - Bổ sung glossary vào prompt (cho phase 2 khi dịch).
-- Bỏ bớt chuyển đổi svg (cho phase 1 khi chuyển đổi sang HTML).
+- Bỏ bớt chuyển đổi svg trong SI (cho phase 1 khi chuyển đổi sang HTML).
 
 2 biến thể này có thể dùng đồng thời, hoặc dùng riêng. Các file tương ứng nằm trong thư mục tương ứng (`glossary` và `x_svg` trong thư mục tổng `pdf2html`.
 
