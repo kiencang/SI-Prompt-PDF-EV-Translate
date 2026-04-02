@@ -101,7 +101,7 @@ Mấy thông tin dư thừa trong phản hồi thường là thông tin mà AI p
 
 ---
 
-# Các tùy chọn
+# ✅ Các tùy chọn
 
 Người dùng ngoài việc dùng bản tiêu chuẩn, bạn có thể sử dụng thêm một trong các tùy chọn dưới đây khi dịch tài liệu PDF từ Anh sang Việt.
 
