@@ -161,8 +161,6 @@ Lúc này **prompt mới** sẽ cung cấp thêm cho AI danh sách từ chuyên 
 
 `system_instructions` tương ứng không phải chỉnh sửa gì, cứ thế dùng luôn.
 
---
-
 Lưu ý: Lúc này prompt sẽ chuyên cho tài liệu nó cần dịch, mỗi khi bạn dịch tài liệu khác cần cập nhật danh sách thuật ngữ chuyên ngành này.
 
 --
