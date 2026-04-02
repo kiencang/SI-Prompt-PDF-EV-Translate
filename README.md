@@ -144,7 +144,7 @@ Hiện trong thư mục đang có những bản tinh chỉnh sau:
 - `x_svg`: chứa SI & prompt loại bỏ chỉ thị liên quan đến tạo sơ đồ, biểu đồ toán học. Nhiều tài liệu không cần đến các chỉ thị này... Chỉ thị liên quan đến tạo sơ đồ biểu đồ chiếm khoảng 25% dung lượng của bản SI tiêu chuẩn, do vậy việc loại bỏ nó khi không cần thiết có khả năng cải thiện khá cao mức độ tập trung của SI. Đây có thể là phiên bản tinh chỉnh bạn sẽ hay dùng nhất.
 - `x_math`: chứa SI & prompt loại bỏ hoàn toàn chỉ thị liên quan đến tạo công thức toán & cả svg. Một số tài liệu sẽ không cần cả hai chỉ thị này. Nếu tài liệu của bạn vẫn có các công thức toán học nhưng không có sơ đồ, biểu đồ thì nên dùng `x_svg` thay vì `x_math`.
 
-Một số bài nghiên cứu, phê bình thuộc lĩnh vực xã hội có cách trình bày đơn giản, không cần cả công thức toán lẫn SVG phức tạp thì `x_math` là lựa chọn rất phù hợp. Tôi khuyến khích bạn dùng nó thay vì dùng bản tiêu chuẩn, các Tùy chọn 1 hoặc 4 thường cũng không cần thiết trong trường hợp này.
+Một số bài nghiên cứu, phê bình thuộc lĩnh vực xã hội có cách trình bày đơn giản, không cần cả công thức toán lẫn SVG phức tạp thì `x_math` là lựa chọn rất phù hợp. Tôi khuyến khích bạn dùng nó thay vì dùng bản tiêu chuẩn, nếu muốn nâng cao hơn nữa chất lượng có thể bổ sung thêm từ chuyên ngành vào prompt.
 
 --
 
