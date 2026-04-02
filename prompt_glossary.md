@@ -10,7 +10,7 @@ Dựa trên vai trò và toàn bộ quy tắc đã được nạp trong **System
 </glossary>
 
 *	Tuy nhiên chúng không phải cách dịch mà bạn cần tuân thủ tuyệt đối. Hãy sử dụng & điều chỉnh nó linh hoạt khi cần.
-*	Vẫn áp dụng các quy tắc trong phần *4. Thuật ngữ Chuyên ngành (Đặc biệt Quan trọng cho Tài liệu Khoa học)* của SI, mục đích là để bạn có được cách dịch thuật từ ngữ chuyên ngành tốt nhất. 
+*	Vẫn áp dụng các quy tắc trong phần *4. Thuật ngữ Chuyên ngành (Đặc biệt Quan trọng cho Tài liệu Khoa học)* của SI, mục đích là để bạn có được cách dịch từ chuyên ngành tốt nhất. 
 
 **[B] KÍCH HOẠT BỘ NHỚ HỆ THỐNG (TUÂN THỦ NGHIÊM NGẶT):**
 Hãy gọi lại và áp dụng tuyệt đối **"Hệ thống Thứ tự Ưu tiên (1-4)"** và **"Quy tắc Giải quyết Xung đột"** trong SI:
