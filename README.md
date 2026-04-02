@@ -149,6 +149,8 @@ Vào thư mục đó bạn sẽ thấy các file `prompt_glossary_ext` & `system
 
 Khi đẩy lên AI, cũng nên để **Temperature thấp**, thường là **0.3**
 
+PS: Riêng với trích xuất từ chuyên ngành, có thể bật thêm tính năng `Grounding with Google Search` trong AI Studio để nó có khả năng phân tích sâu hơn các từ khó thông qua việc tìm kiếm.
+
 Sau đó copy danh sách kết quả đưa vào prompt có hậu tố `_glossary` trong mỗi tùy chọn trên (các prompt tùy chỉnh sẽ nằm trong thư mục `glossary` của Tùy chọn tương ứng):
 
 ```
