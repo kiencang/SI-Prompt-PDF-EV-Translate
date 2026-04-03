@@ -9,6 +9,7 @@ và dự án này tuân thủ [Semantic Versioning](https://semver.org/spec/v2.0
 
 ### Fixed
 - Đưa các ví dụ file dịch vào thư mục examples cho gọn.
+- Điều chỉnh hướng dẫn sử dụng (README.md).
 
 ## [v1.3.31] - 2026-04-02
 
