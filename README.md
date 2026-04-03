@@ -181,6 +181,81 @@ Lưu ý: Lúc này prompt sẽ chuyên cho tài liệu nó cần dịch, mỗi k
 
 --
 
+Ví dụ kết quả đầu ra khi chạy SI/prompt trích xuất từ chuyên ngành, cốt lõi của một tài liệu khoảng 12 trang:
+
+```
+**B**
+- behavioral theory: lý thuyết hành vi
+
+**C**
+- cognitive burden: gánh nặng nhận thức
+- concentrated urban disadvantage: bất lợi đô thị tập trung
+- culture of poverty: văn hóa nghèo đói
+
+**D**
+- deindustrialization: phi công nghiệp hóa
+- demographic context: bối cảnh nhân khẩu học
+- disciplining institution: thể chế kỷ luật
+
+**E**
+- economic development: phát triển kinh tế
+- endogeneity problem: vấn đề nội sinh
+
+**F**
+- female labor force participation: sự tham gia lực lượng lao động của nữ giới
+
+**H**
+- housing displacement: sự dịch chuyển chỗ ở
+
+**I**
+- incarceration: sự giam giữ
+- incentive: động cơ
+- income distribution: phân phối thu nhập
+- institution: thể chế
+- institutionalized power: quyền lực được thể chế hóa
+
+**L**
+- labor market context: bối cảnh thị trường lao động
+
+**M**
+- market inefficiency: sự kém hiệu quả của thị trường
+- moral hazard: rủi ro đạo đức
+
+**N**
+- neighborhood effect: hiệu ứng khu dân cư
+
+**P**
+- path dependency: sự phụ thuộc đường dẫn
+- political theory: lý thuyết chính trị
+- poverty trap: bẫy nghèo
+- power relation: quan hệ quyền lực
+- power resources theory: lý thuyết nguồn lực quyền lực
+- present bias: thiên kiến hiện tại
+
+**R**
+- relational perspective: quan điểm quan hệ
+- residential segregation: sự phân biệt nơi cư trú
+
+**S**
+- single motherhood: làm mẹ đơn thân
+- skills mismatch: sự không khớp về kỹ năng
+- social policy: chính sách xã hội
+- spatial mismatch: sự không khớp về không gian
+- status attainment: đạt được địa vị
+- structural theory: lý thuyết cấu trúc
+- structural violence: bạo lực cấu trúc
+
+**U**
+- upward mobility: di động xã hội lên trên
+
+**W**
+- welfare dependency: sự phụ thuộc vào phúc lợi
+- welfare state: nhà nước phúc lợi
+- working poverty: nghèo đói ở người có việc làm
+```
+
+--
+
 ## 🔄 SI và prompt bản chia phase theo từng giai đoạn | Tùy chọn 2
 
 Trong thư mục `pdf2html` chứa các SI & prompt được tinh chỉnh theo từng bước xử lý chứ không gộp chung như SI/prompt tiêu chuẩn.
