@@ -8,6 +8,7 @@ Dự án này cung cấp bộ khung hướng dẫn tối ưu giúp AI xử lý c
 
 - Dịch máy chỉ nên áp dụng khi bạn không thể thuê dịch thuật viên chất lượng cao, đặc biệt thận trọng khi áp dụng dịch máy với các tài liệu quan trọng.
 - Bất kể dịch máy có chất lượng tốt đến đâu, bạn vẫn cần xem xét nó, do vậy bạn nên có tiếng Anh cơ bản để khi cần có thể kiểm tra.
+- Cùng một SI/prompt nhưng chất lượng đầu ra thường khác nhau, và đôi khi khác nhau đáng kể! (giống anh em sinh đôi khi trưởng thành vậy). Do đó có một mẹo hơi mất thời gian chút để có bản dịch hay là cho AI dịch lại, và bạn sẽ chọn đọc bản nào chất lượng nhất.
 
 ---
 
