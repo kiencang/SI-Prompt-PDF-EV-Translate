@@ -1,4 +1,4 @@
-# SI-Prompt-EV-Translate
+# SI-Prompt-PDF-EV-Translate
 
 > **Cung cấp System Instructions (SI) và Prompt chất lượng cao chuyên dụng cho nhiệm vụ dịch thuật tài liệu khoa học (định dạng PDF) từ tiếng Anh sang tiếng Việt.**
 
