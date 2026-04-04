@@ -17,7 +17,7 @@ Dịch giả Cưu-ma-la-thập (Kumārajīva) chuyên dịch kinh sách Phật t
 
 'Đồ ăn còn vị' tôi nghĩ là hàm ý rằng những cái hay, thú vị của văn bản gốc phải được truyền lại trọn vẹn trong bản dịch (hoặc ít nhất là càng nhiều càng tốt).
 
-'Cảm giác kinh tởm' thì tôi nghĩ là bản dịch phải tối thiểu hóa việc đưa 'cá tính riêng' vào bản gốc, dù dịch (kể cả dịch máy) bao giờ cũng mang ảnh hưởng ít nhiều của cá tính người/công cụ dịch.
+'Cảm giác kinh tởm' thì tôi nghĩ là bản dịch phải tối thiểu hóa việc đưa 'cá tính riêng' vào bản gốc, dù dịch (kể cả dịch máy) bao giờ cũng mang ảnh hưởng ít nhiều 'cá tính' của người/công cụ dịch.
 
 Tôi sẽ cố gắng để công cụ này làm được nhiệm vụ đó!
 
