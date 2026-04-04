@@ -6,7 +6,7 @@ Dự án này cung cấp bộ khung hướng dẫn tối ưu giúp AI xử lý c
 
 --
 
-Dịch giả Cưu-ma-la-thập chuyên dịch kinh sách Phật từ tiếng Phạn sang tiếng Hán được cho là từng nói đại ý thế này:
+Dịch giả Cưu-ma-la-thập (Kumārajīva) chuyên dịch kinh sách Phật từ tiếng Phạn sang tiếng Hán được cho là từng nói đại ý thế này:
 
 > Dịch giống như đút cho người khác đồ ăn đã nhai rồi, điều đó vừa làm đồ ăn mất hết mùi vị và còn gây cảm giác kinh tởm nữa!
 
