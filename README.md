@@ -12,12 +12,14 @@ Dịch giả Cưu-ma-la-thập (Kumārajīva) chuyên dịch kinh sách Phật t
 
 Điều này nếu suy nghĩ kỹ thì có 2 hướng:
 
-- Người đọc, nếu có khả năng, tốt nhất nên học ngoại ngữ để đỡ phải 'ăn cơm nhai lại'.
+- Người đọc, nếu có khả năng, tốt nhất nên học ngoại ngữ để đỡ phải 'ăn đồ nhai lại'.
 - Người/công cụ dịch, khi làm nhiệm vụ này thì phải cố gắng tối đa để 'đồ ăn còn vị' & giảm thiểu 'cảm giác kinh tởm'.
 
 'Đồ ăn còn vị' tôi nghĩ là hàm ý rằng những cái hay, thú vị của văn bản gốc phải được truyền lại trọn vẹn trong bản dịch (hoặc ít nhất là càng nhiều càng tốt).
 
-'Cảm giác kinh tởm' thì tôi nghĩ là bản dịch phải tối thiểu hóa việc đưa 'cá tính riêng' vào bản gốc, dù dịch (kể cả dịch máy) bao giờ cũng mang ảnh hưởng ít nhiều 'cá tính' của người/công cụ dịch.
+'Cảm giác kinh tởm' thì tôi cho là bản dịch phải tối thiểu hóa việc đưa 'cá tính riêng' vào bản gốc (theo cái nghĩa nó phá cá tính của bản gốc), dù dịch (kể cả dịch máy) bao giờ cũng mang ảnh hưởng ít nhiều 'cá tính' của người/công cụ dịch.
+
+Dĩ nhiên, mồm cũng phải thơm tho sạch sẽ nữa.
 
 Tôi sẽ cố gắng để công cụ này làm được nhiệm vụ đó!
 
