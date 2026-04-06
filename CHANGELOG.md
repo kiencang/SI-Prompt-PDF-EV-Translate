@@ -9,6 +9,12 @@ Riêng các chỉnh sửa nhỏ không liên quan đến code, như chỉnh sử
 
 Ví dụ phiên bản `v1.3.31.ndc` có nghĩa là phần code giống hệt phiên bản `v1.3.31`, chỉ có một số thông tin khác, không ảnh hưởng đến chức năng chính.
 
+## [v1.3.32] - 2026-04-06
+
+### Added
+- Bổ sung khả năng tạo ra một ứng dụng riêng trên Gemini nếu muốn.
+- Các file cần thiết để làm điều này nằm trong build_an_app.
+
 ## [v1.3.31.ndc] - 2026-04-03
 
 ### Fixed
