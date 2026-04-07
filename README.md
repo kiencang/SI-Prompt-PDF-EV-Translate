@@ -14,6 +14,8 @@ Hoặc bạn có thể sử dụng biện pháp thủ công như hướng dẫn 
 
 ---
 
+## Triết lý
+
 Dịch giả Cưu-ma-la-thập (Kumārajīva) chuyên dịch kinh sách Phật từ tiếng Phạn sang tiếng Hán được cho là từng nói đại ý thế này:
 
 > Dịch giống như đút cho người khác đồ ăn đã nhai rồi, điều đó vừa làm đồ ăn mất hết mùi vị và còn gây cảm giác kinh tởm nữa!
