@@ -9,6 +9,11 @@ Riêng các chỉnh sửa nhỏ không liên quan đến code, như chỉnh sử
 
 Ví dụ phiên bản `v1.3.31.ndc` có nghĩa là phần code giống hệt phiên bản `v1.3.31`, chỉ có một số thông tin khác, không ảnh hưởng đến chức năng chính.
 
+## [v1.3.34] - 2026-04-08
+
+### Fixed
+- Tinh chỉnh prompt liên quan đến phần dịch có ký hiệu toán học, nhằm đẩy cao mức độ thống nhất của bản dịch, tránh AI hiểu nhầm ý định.
+
 ## [v1.3.33] - 2026-04-07
 
 SI/Prompt chính của repo không thay đổi.
