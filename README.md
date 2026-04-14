@@ -223,6 +223,119 @@ Ví dụ kết quả dịch bằng tùy chọn này: https://github.com/kiencang
 
 ---
 
+### 📝 Về ý tưởng Nâng cao thêm chất lượng dịch với danh sách từ chuyên ngành bổ sung vào prompt
+
+Phần này là tùy ý. Không bắt buộc sử dụng. Nhưng có thể cải thiện chất lượng dịch, đặc biệt trên tài liệu dài hoặc khó (hoặc cả hai). Tuy nhiên nó cần điều kiện quan trọng là phải có sự biên tập cẩn thận trước khi đưa vào.
+
+Mặc định SI/prompt mẫu là tương đối tốt để xử lý các tài liệu chuyên ngành. Tuy nhiên nếu bạn muốn cải thiện hơn nữa chất lượng dịch thì hãy sử dụng bộ SI/prompt trong thư mục **`glossary_ext`** để trích xuất cách dịch chuyên ngành & các từ cốt lõi trong tài liệu.
+
+Vào thư mục đó bạn sẽ thấy các file `prompt_glossary_ext` & `system_instructions_glossary_ext` dùng để trích xuất cách dịch từ chuyên ngành.
+
+Khi đẩy lên AI, cũng nên để **Temperature thấp**, thường là **0.3**
+
+PS: Riêng với trích xuất từ chuyên ngành, có thể bật thêm tính năng `Grounding with Google Search` trong AI Studio để nó có khả năng phân tích sâu hơn các từ khó thông qua việc tìm kiếm.
+
+Sau đó copy danh sách kết quả đưa vào `prompt_glossary` để tiến hành dịch.
+
+```
+<glossary>
+[DÁN DANH SÁCH THUẬT NGỮ ĐÃ TRÍCH XUẤT TỪ TÀI LIỆU]
+</glossary>
+```
+
+Lúc này **prompt mới** sẽ cung cấp thêm cho AI danh sách từ chuyên ngành để tham khảo trước khi dịch.
+
+`system_instructions` tương ứng không phải chỉnh sửa gì, cứ thế dùng luôn.
+
+Lưu ý: Lúc này prompt sẽ chuyên cho tài liệu nó cần dịch, mỗi khi bạn dịch tài liệu khác cần cập nhật danh sách thuật ngữ chuyên ngành này.
+
+--
+
+Ví dụ kết quả đầu ra khi chạy SI/prompt trích xuất từ chuyên ngành, cốt lõi của một tài liệu khoảng 12 trang:
+
+```
+**B**
+- behavioral theory: lý thuyết hành vi
+
+**C**
+- cognitive burden: gánh nặng nhận thức
+- concentrated urban disadvantage: bất lợi đô thị tập trung
+- culture of poverty: văn hóa nghèo đói
+
+**D**
+- deindustrialization: phi công nghiệp hóa
+- demographic context: bối cảnh nhân khẩu học
+- disciplining institution: thể chế kỷ luật
+
+**E**
+- economic development: phát triển kinh tế
+- endogeneity problem: vấn đề nội sinh
+
+**F**
+- female labor force participation: sự tham gia lực lượng lao động của nữ giới
+
+**H**
+- housing displacement: sự dịch chuyển chỗ ở
+
+**I**
+- incarceration: sự giam giữ
+- incentive: động cơ
+- income distribution: phân phối thu nhập
+- institution: thể chế
+- institutionalized power: quyền lực được thể chế hóa
+
+**L**
+- labor market context: bối cảnh thị trường lao động
+
+**M**
+- market inefficiency: sự kém hiệu quả của thị trường
+- moral hazard: rủi ro đạo đức
+
+**N**
+- neighborhood effect: hiệu ứng khu dân cư
+
+**P**
+- path dependency: sự phụ thuộc đường dẫn
+- political theory: lý thuyết chính trị
+- poverty trap: bẫy nghèo
+- power relation: quan hệ quyền lực
+- power resources theory: lý thuyết nguồn lực quyền lực
+- present bias: thiên kiến hiện tại
+
+**R**
+- relational perspective: quan điểm quan hệ
+- residential segregation: sự phân biệt nơi cư trú
+
+**S**
+- single motherhood: làm mẹ đơn thân
+- skills mismatch: sự không khớp về kỹ năng
+- social policy: chính sách xã hội
+- spatial mismatch: sự không khớp về không gian
+- status attainment: đạt được địa vị
+- structural theory: lý thuyết cấu trúc
+- structural violence: bạo lực cấu trúc
+
+**U**
+- upward mobility: di động xã hội lên trên
+
+**W**
+- welfare dependency: sự phụ thuộc vào phúc lợi
+- welfare state: nhà nước phúc lợi
+- working poverty: nghèo đói ở người có việc làm
+```
+
+### ⚠️ Tại sao danh sách từ chuyên ngành không phải lúc nào cũng cho kết quả tốt hơn?
+
+Một ưu điểm chắc chắn của danh sách từ chuyên ngành là nó làm cho bản dịch của bạn có *tính thống nhất cao*. Sẽ hiếm khi có chuyện một thuật ngữ ở đầu văn bản được dịch là A, nhưng ở cuối văn bản lại dịch là B. Nó cũng đặc biệt hữu ích khi bạn dịch các văn bản dài như sách chẳng hạn, nó giảm tối thiểu việc các chương sách dịch cùng một thuật ngữ thành các từ khác nhau mà có thể tạo ra hiểu lầm cho bạn là những khái niệm không giống nhau.
+
+Nhưng danh sách từ chuyên ngành dựng bằng AI có nhược điểm có hữu: Nó vẫn là phiên bản được tái tạo bằng AI. Nghĩa là nếu một văn bản không quá phức tạp (không quá dài, không quá nhiều từ khó) thì việc dịch thẳng trực tiếp chưa chắc đã cho kết quả yếu hơn một phiên bản cần thêm trích xuất từ chuyên ngành. Nguyên nhân là vì lúc đó độ phức tạp của văn bản gốc được giải quyết ngay lần xử lý đầu tiên, và việc trích xuất bằng AI từ chuyên ngành ở lần đầu không đem lại lợi thế nào đáng kể, và đôi khi còn yếu hơn vì khi dịch AI buộc phải dựa vào danh sách 'cứng' thay vì linh động hơn khi dịch một lần và có toàn văn bối cảnh của bản gốc.
+
+Nói chung danh sách từ chuyên ngành sẽ phát huy hiệu quả chắc chắn hơn nếu nó có bước can thiệp của con người. Tuy nhiên đây là điều không mấy dễ dàng, hoặc thực tế hơn là hầu như không thể. Bạn cần AI dịch là vì bạn không có khả năng đọc bản gốc, các từ chuyên ngành thì lại càng không! Do vậy, chính bạn sẽ không có khả năng chỉnh sửa danh sách này!
+
+Tất cả những phần trên chỉ muốn nhắc người sử dụng công cụ rằng hãy thận trọng và không đặt quá nhiều kỳ vọng vào danh sách từ chuyên ngành trên các văn bản không quá phức tạp.
+
+Một cách sẽ khá mất công nếu chính bạn muốn tận dụng danh sách từ chuyên ngành, đó chính là: **tích lũy kinh nghiệm**- sau khi bạn có nhiều 'va chạm' với thuật ngữ để có khả năng can thiệp, điều chỉnh danh sách. Điều này không phải là bất khả thi, đặc biệt khi bạn thường xuyên làm việc với loại tài liệu chuyên ngành nào đó- khả năng cao không sớm thì muộn bạn sẽ lập ra được một danh sách rất mạnh bao gồm 1000 từ với độ chính xác dịch thuật cao.
+
 ## ⚖️ Giấy phép & Tuyên bố miễn trừ trách nhiệm
 
 ### Giấy phép (License)
