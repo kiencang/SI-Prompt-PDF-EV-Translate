@@ -188,7 +188,7 @@ Về lý thuyết, SI & prompt tốt là các hướng dẫn phù hợp (đúng 
 
 Hiện trong thư mục `refine` đang có những bản tinh chỉnh sau:
 
-- `x_svg`: chứa SI & prompt loại bỏ chỉ thị liên quan đến tạo sơ đồ, biểu đồ toán học. Nhiều tài liệu không cần đến các chỉ thị này... Chỉ thị liên quan đến tạo sơ đồ biểu đồ chiếm khoảng 25% dung lượng của bản SI tiêu chuẩn, do vậy việc loại bỏ nó khi không cần thiết có khả năng cải thiện khá cao mức độ tập trung của SI.
+- `zero_svg`: chứa SI & prompt loại bỏ chỉ thị liên quan đến tạo sơ đồ, biểu đồ toán học. Nhiều tài liệu không cần đến các chỉ thị này... Chỉ thị liên quan đến tạo sơ đồ biểu đồ chiếm khoảng 25% dung lượng của bản SI tiêu chuẩn, do vậy việc loại bỏ nó khi không cần thiết có khả năng cải thiện khá cao mức độ tập trung của SI.
 
 Để dễ hình dung các biểu đồ toán học trông như thế nào thì dưới đây là ví dụ:
 
@@ -197,7 +197,7 @@ Hiện trong thư mục `refine` đang có những bản tinh chỉnh sau:
    <br><em>Biểu đồ toán học có khả năng dựng bằng SVG</em>
 </p>
 
-- `x_math`: chứa SI & prompt loại bỏ hoàn toàn chỉ thị liên quan đến tạo công thức toán & cả svg. Một số tài liệu sẽ không cần cả hai chỉ thị này. PS: Nếu tài liệu của bạn vẫn có các công thức toán học nhưng không có sơ đồ, biểu đồ toán học thì nên dùng `x_svg` thay vì `x_math`.
+- `zero_math`: chứa SI & prompt loại bỏ hoàn toàn chỉ thị liên quan đến tạo công thức toán & cả svg. Một số tài liệu sẽ không cần cả hai chỉ thị này. PS: Nếu tài liệu của bạn vẫn có các công thức toán học nhưng không có sơ đồ, biểu đồ toán học thì nên dùng `zero_svg` thay vì `zero_math`.
 
 Để hình dung các công thức toán học trông như thế nào thì dưới đây là ví dụ:
 
@@ -206,7 +206,7 @@ Hiện trong thư mục `refine` đang có những bản tinh chỉnh sau:
    <br><em>Công thức toán học</em>
 </p>
 
-Một số bài nghiên cứu, phê bình thuộc lĩnh vực xã hội có cách trình bày đơn giản, không cần cả công thức toán lẫn biểu đồ toán học phức tạp thì `x_math` là lựa chọn rất phù hợp. Tôi khuyến khích bạn dùng thay vì dùng bản tiêu chuẩn. 
+Một số bài nghiên cứu, phê bình thuộc lĩnh vực xã hội có cách trình bày đơn giản, không cần cả công thức toán lẫn biểu đồ toán học phức tạp thì `zero_math` là lựa chọn rất phù hợp. Tôi khuyến khích bạn dùng thay vì dùng bản tiêu chuẩn. 
 
 Nếu muốn nâng cao hơn nữa chất lượng có thể bổ sung thêm từ chuyên ngành vào prompt (lúc đó cần dùng prompt mới lưu trong thư mục `glossary` tương ứng).
 
@@ -347,7 +347,7 @@ Tùy chọn này còn có thêm 2 biến thể:
 - Bổ sung glossary vào prompt (cho phase 2 khi dịch).
 - Bỏ bớt chuyển đổi svg trong SI (cho phase 1 khi chuyển đổi sang HTML).
 
-2 biến thể này có thể dùng đồng thời, hoặc dùng riêng. Các file tương ứng nằm trong thư mục tương ứng (`glossary` và `x_svg` trong thư mục tổng `pdf2html`.
+2 biến thể này có thể dùng đồng thời, hoặc dùng riêng. Các file tương ứng nằm trong thư mục tương ứng (`glossary` và `zero_svg` trong thư mục tổng `pdf2html`.
 
 ---
 
