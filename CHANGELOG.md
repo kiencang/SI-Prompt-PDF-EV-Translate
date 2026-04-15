@@ -9,6 +9,11 @@ Riêng các chỉnh sửa nhỏ không liên quan đến code, như chỉnh sử
 
 Ví dụ phiên bản `v1.3.31.ndc` có nghĩa là phần code giống hệt phiên bản `v1.3.31`, chỉ có một số thông tin khác, không ảnh hưởng đến chức năng chính.
 
+## [v1.3.39] - 2026-04-15
+
+### Fixed
+- Cải tiến, loại bỏ lặp thông tin thừa trong SI phase 1.
+
 ## [v1.3.38] - 2026-04-14
 
 ### Fixed
