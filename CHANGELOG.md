@@ -9,6 +9,14 @@ Riêng các chỉnh sửa nhỏ không liên quan đến code, như chỉnh sử
 
 Ví dụ phiên bản `v1.3.31.ndc` có nghĩa là phần code giống hệt phiên bản `v1.3.31`, chỉ có một số thông tin khác, không ảnh hưởng đến chức năng chính.
 
+## [v1.3.45] - 2026-08-06
+
+### Fixed
+
+- Cập nhật các prompt để nó xử lý ảnh vector tốt hơn;
+- Phân biệt rõ ảnh raster và vector. Ảnh raster được công cụ tách ra khỏi file PDF và chèn vào bản dịch, còn ảnh vector được AI vẽ lại bằng HTML, CSS;
+- Với sơ đồ, biểu đồ vector đặc thù toán học thì có chỉ thị xử lý riêng;
+
 ## [v1.3.44] - 2026-07-22
 
 ### Fixed
