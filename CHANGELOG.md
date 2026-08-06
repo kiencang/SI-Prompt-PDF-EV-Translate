@@ -9,6 +9,12 @@ Riêng các chỉnh sửa nhỏ không liên quan đến code, như chỉnh sử
 
 Ví dụ phiên bản `v1.3.31.ndc` có nghĩa là phần code giống hệt phiên bản `v1.3.31`, chỉ có một số thông tin khác, không ảnh hưởng đến chức năng chính.
 
+## [v1.3.46] - 2026-08-06
+
+### Fixed
+
+- Cập nhật cho cả phase1 phần xử lý ảnh vector (v1.3.45 chỉ mới cập nhật 3 kiểu dịch đầu tiên);
+
 ## [v1.3.45] - 2026-08-06
 
 ### Fixed
