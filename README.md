@@ -8,7 +8,7 @@ Dự án này cung cấp bộ khung hướng dẫn tối ưu giúp AI xử lý c
 
 ## App trên AI Studio 
 
-Dùng dịch file PDF được ngay mà không cần chạy SI/Prompt thủ công: https://aistudio.google.com/apps/bb5c61b7-e110-49aa-933c-04c4ccd18e16?showPreview=true&showAssistant=true
+Dùng dịch file PDF được ngay mà không cần chạy SI/Prompt thủ công: https://aistudio.google.com/apps/bb5c61b7-e110-49aa-933c-04c4ccd18e16?showPreview=true&showAssistant=true&fullscreenApplet=true
 
 Hoặc bạn có thể sử dụng biện pháp thủ công như hướng dẫn bên dưới. **Lưu ý:** Vẫn nên đọc nội dung hướng dẫn bên dưới để bạn hiểu hơn cách dùng, ưu điểm cũng như hạn chế của ứng dụng, kể cả khi bạn không dùng biện pháp thủ công.
 
