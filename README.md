@@ -4,8 +4,6 @@
 
 Dự án này cung cấp bộ khung hướng dẫn tối ưu giúp AI xử lý các văn bản học thuật có độ phức tạp cao, đảm bảo độ chính xác về thuật ngữ và bảo toàn định dạng tốt nhất có thể.
 
----
-
 ## Triết lý
 
 Dịch giả Cưu-ma-la-thập (Kumārajīva) chuyên dịch kinh sách Phật từ tiếng Phạn sang tiếng Hán được cho là từng nói đại ý thế này:
