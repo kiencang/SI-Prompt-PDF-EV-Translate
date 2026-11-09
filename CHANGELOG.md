@@ -9,6 +9,14 @@ Riêng các chỉnh sửa nhỏ không liên quan đến code, như chỉnh sử
 
 Ví dụ phiên bản `v1.3.31.ndc` có nghĩa là phần code giống hệt phiên bản `v1.3.31`, chỉ có một số thông tin khác, không ảnh hưởng đến chức năng chính.
 
+## [v1.3.50] - 2026-11-09
+### Fixed
+- Điều chỉnh chỉ thị liên quan đến `Đơn vị đo lường, Định dạng Số, Ngày tháng và Tiền tệ`;
+
+## [v1.3.49] - 2026-11-09
+### Fixed
+- Điều chỉnh chỉ thị liên quan đến mục `translation_guidelines`, đưa ra các yêu cầu chỉnh xác hơn liên quan đến tái cấu trúc câu; đưa ra các ví dụ mẫu ngắn gọn và chính xác hơn; xử lý mơ hồ tốt hơn với việc đưa ra các phương án xử lý rõ ràng hơn;
+
 ## [v1.3.48] - 2026-08-06
 ### Fixed
 - Sửa thành cái nảy `Tuyệt đối KHÔNG xóa, bỏ sót, hay đổi tên bất kỳ mã định danh hình ảnh nào.` để không bỏ sót ảnh trong bản dịch;
